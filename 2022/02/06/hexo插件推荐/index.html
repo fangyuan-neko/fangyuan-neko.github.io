@@ -47,7 +47,7 @@
         }
       </style>
     <link rel="alternate" href="/atom.xml" title="方圆喵的小站" type="application/atom+xml">
-</head>
+<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head>
   </html>
 </html>
 
@@ -80,13 +80,17 @@
     <div class="article-meta">
       <a href="/2022/02/06/hexo%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/" class="article-date">
   <time datetime="2022-02-05T20:30:53.000Z" itemprop="datePublished">2022-02-06</time>
-</a>   
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E4%BF%A1%E6%81%AF%E5%8C%96/">信息化</a> / <a class="article-category-link" href="/categories/%E4%BF%A1%E6%81%AF%E5%8C%96/%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F/">博客系统</a>
+  </div>
+  
 <div class="word_count">
     <span class="post-time">
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">117</span>
+            <span class="post-count">495</span>
         </span>
     </span>
 
@@ -95,7 +99,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">1 min</span>
+            <span class="post-count">2 min</span>
         </span>
     </span>
 </div>
@@ -110,21 +114,45 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h2 id="RSS插件"><a href="#RSS插件" class="headerlink" title="RSS插件"></a>RSS插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">cnpm install hexo-generator-feed --save<br></code></pre></td></tr></table></figure>
-
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="rss插件">RSS插件</h2>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">cnpm install hexo-generator-feed --save<br></code></pre></td></tr></table></figure>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">feed:</span>  <br> <span class="hljs-attr">type:</span> <span class="hljs-string">atom</span>  <br> <span class="hljs-attr">path:</span> <span class="hljs-string">atom.xml</span>  <br> <span class="hljs-attr">limit:</span> <span class="hljs-number">20</span>  <br> <span class="hljs-attr">hub:</span>  <br> <span class="hljs-attr">content:</span>  <br> <span class="hljs-attr">content_limit:</span> <span class="hljs-number">140</span>  <br> <span class="hljs-string">content\_limit\_delim:</span> <span class="hljs-string">&quot; &quot;</span>  <br> <span class="hljs-attr">order_by:</span> <span class="hljs-string">-date</span><br></code></pre></td></tr></table></figure>
-
-<h2 id="搜索插件"><a href="#搜索插件" class="headerlink" title="搜索插件"></a>搜索插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">cnpm install hexo-generator-searchdb --save<br></code></pre></td></tr></table></figure>
-
+<span id="more"></span>
+<h2 id="搜索插件">搜索插件</h2>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">cnpm install hexo-generator-searchdb --save<br></code></pre></td></tr></table></figure>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-comment"># hexo-generator-searchdb  </span><br><span class="hljs-attr">search:</span>  <br> <span class="hljs-attr">path:</span> <span class="hljs-string">search.xml</span>  <br> <span class="hljs-attr">field:</span> <span class="hljs-string">post</span>  <br> <span class="hljs-attr">format:</span> <span class="hljs-string">html</span><br></code></pre></td></tr></table></figure>
-
-<h2 id="引用插件"><a href="#引用插件" class="headerlink" title="引用插件"></a>引用插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">cnpm install hexo-reference --save<br></code></pre></td></tr></table></figure>
-
-<h2 id="echarts图表插件"><a href="#echarts图表插件" class="headerlink" title="echarts图表插件"></a>echarts图表插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">cnpm install hexo-tag-echarts --save<br></code></pre></td></tr></table></figure>
-
-<p>在当前主题下的<code>layout/_partial/head.ejs</code>中加入[^1]</p>
+<h2 id="引用插件">引用插件</h2>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">cnpm install hexo-reference --save<br></code></pre></td></tr></table></figure>
+<p>注：此插件有bug,需要在<code>hexo clean</code>后删除此插件重装，不然会报</p>
+<blockquote>
+<p>FATAL {<br>
+ err: TypeError: Cannot read properties of undefined (reading ‘content’)<br>
+     at /home/fangyuan/文档/博客/node_modules/_hexo-reference@1.0.4@hexo-reference/src/footnotes.js:55:43<br>
+     at String.replace (&lt;anonymous&gt;)<br>
+     at renderFootnotes (/home/fangyuan/文档/博客/node_modules/_hexo-reference@1.0.4@hexo-reference/src/footnotes.js:53:17)<br>
+     at Hexo.&lt;anonymous&gt; (/home/fangyuan/文档/博客/node_modules/hexo-reference/index.js:6:18)<br>
+     at Hexo.tryCatcher (/home/fangyuan/文档/博客/node_modules/bluebird/js/release/util.js:16:23)<br>
+     at Hexo.&lt;anonymous&gt; (/home/fangyuan/文档/博客/node_modules/bluebird/js/release/method.js:15:34)<br>
+     at /home/fangyuan/文档/博客/node_modules/hexo/lib/extend/filter.js:67:52<br>
+     at tryCatcher (/home/fangyuan/文档/博客/node_modules/bluebird/js/release/util.js:16:23)<br>
+     at Object.gotValue (/home/fangyuan/文档/博客/node_modules/bluebird/js/release/reduce.js:166:18)<br>
+     at Object.gotAccum (/home/fangyuan/文档/博客/node_modules/bluebird/js/release/reduce.js:155:25)<br>
+     at Object.tryCatcher (/home/fangyuan/文档/博客/node_modules/bluebird/js/release/util.js:16:23)<br>
+     at Promise._settlePromiseFromHandler (/home/fangyuan/文档/博客/node_modules/bluebird/js/release/promise.js:547:31)<br>
+     at Promise._settlePromise (/home/fangyuan/文档/博客/node_modules/bluebird/js/release/promise.js:604:18)<br>
+     at Promise._settlePromise0 (/home/fangyuan/文档/博客/node_modules/bluebird/js/release/promise.js:649:10)<br>
+     at Promise._settlePromises (/home/fangyuan/文档/博客/node_modules/bluebird/js/release/promise.js:729:18)<br>
+     at _drainQueueStep (/home/fangyuan/文档/博客/node_modules/bluebird/js/release/async.js:93:12)<br>
+     at _drainQueue (/home/fangyuan/文档/博客/node_modules/bluebird/js/release/async.js:86:9)<br>
+     at Async._drainQueues (/home/fangyuan/文档/博客/node_modules/bluebird/js/release/async.js:102:5)<br>
+     at Immediate.Async.drainQueues [as _onImmediate] (/home/fangyuan/文档/博客/node_modules/bluebird/js/release/async.js:15:14)<br>
+     at processImmediate (node:internal/timers:473:21)<br>
+} Something’s wrong. Maybe you can find the solution here: %s <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">https://hexo.io/docs/troubleshooting.html</a></p>
+</blockquote>
+<h2 id="echarts图表插件">echarts图表插件</h2>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">cnpm install hexo-tag-echarts --save<br></code></pre></td></tr></table></figure>
+<p>在当前主题下的<code>layout/_partial/head.ejs</code>中加入</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.common.min.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span><br></code></pre></td></tr></table></figure>
-
 <p>参考资料<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/8ae0d3b734ed">https://www.jianshu.com/p/8ae0d3b734ed</a></p>
  
       <!-- reward -->
@@ -195,6 +223,8 @@
 </div>
 
 <div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/" rel="tag">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%85%8D%E7%BD%AE/" rel="tag">配置</a></li></ul>
+
     </footer>
   </div>
 
@@ -354,22 +384,6 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
- 
-<script src="/js/tocbot.min.js"></script>
-
-<script>
-  tocbot.init({
-    tocSelector: ".tocbot",
-    contentSelector: ".article-entry",
-    headingSelector: "h1, h2, h3, h4, h5, h6",
-    hasInnerContainers: true,
-    scrollSmooth: true,
-    scrollContainer: "main",
-    positionFixedSelector: ".tocbot",
-    positionFixedClass: "is-position-fixed",
-    fixedSidebarOffset: "auto",
-  });
-</script>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
 <link

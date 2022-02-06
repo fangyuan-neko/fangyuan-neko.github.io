@@ -47,7 +47,7 @@
         }
       </style>
     <link rel="alternate" href="/atom.xml" title="方圆喵的小站" type="application/atom+xml">
-</head>
+<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head>
   </html>
 </html>
 
@@ -90,7 +90,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">361</span>
+            <span class="post-count">349</span>
         </span>
     </span>
 
@@ -114,47 +114,55 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h2><p><strong>声明</strong></p>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="升级">升级</h2>
+<p><strong>声明</strong></p>
 <p>仅支持Linux版本，且MAC版无法保证</p>
 <span id="more"></span>
-
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>需要安装一个软件n，<a target="_blank" rel="noopener" href="https://github.com/tj/n">文档</a>。</p>
+<h3 id="安装">安装</h3>
+<p>需要安装一个软件n，<a target="_blank" rel="noopener" href="https://github.com/tj/n">文档</a>。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">npm i -g n<br></code></pre></td></tr></table></figure>
 <p>如果无法安装，请使用</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">npm i -g n --force<br></code></pre></td></tr></table></figure>
-
-<h3 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h3><h4 id="指定版本号"><a href="#指定版本号" class="headerlink" title="指定版本号"></a>指定版本号</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">n 版本号 如 n <span class="hljs-number">10.0</span><span class="hljs-number">.0</span><br></code></pre></td></tr></table></figure>
-
-<h4 id="最新版本"><a href="#最新版本" class="headerlink" title="最新版本"></a>最新版本</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">n lattes<br></code></pre></td></tr></table></figure>
-
-<h4 id="最新稳定版-1"><a href="#最新稳定版-1" class="headerlink" title="最新稳定版[1]"></a>最新稳定版<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="若要查看你需要的版本，运行 `n --版本号`">[1]</span></a></sup></h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">n lts<br></code></pre></td></tr></table></figure>
-
-<h4 id="续"><a href="#续" class="headerlink" title="续"></a>续</h4><p>如果n提醒你如下：</p>
+<h3 id="更新">更新</h3>
+<h4 id="指定版本号">指定版本号</h4>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">n 版本号 如 n <span class="hljs-number">10.0</span><span class="hljs-number">.0</span><br></code></pre></td></tr></table></figure>
+<h4 id="最新版本">最新版本</h4>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">n latest<br></code></pre></td></tr></table></figure>
+<h4 id="最新稳定版">最新稳定版</h4>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">n lts<br></code></pre></td></tr></table></figure>
+<h4 id="续">续</h4>
+<p>如果n提醒你如下：</p>
 <blockquote>
-<p>Note: the node command changed location and the old location may be remembered in your current shell.<br>         old : /usr/bin/node<br>         new : /usr/local/bin/node<br>To reset the command location hash either start a new shell, or execute PATH=”$PATH”</p>
+<p>Note: the node command changed location and the old location may be remembered in your current shell.<br>
+old : /usr/bin/node<br>
+new : /usr/local/bin/node<br>
+To reset the command location hash either start a new shell, or execute PATH=&quot;$PATH&quot;</p>
 </blockquote>
 <p>那么按提示输入<code>PATH=$PATH</code>即可</p>
 <p>再次检查<code>node -v</code>，可发现已成功升级。</p>
-<h2 id="npm安装"><a href="#npm安装" class="headerlink" title="npm安装"></a>npm安装</h2><blockquote>
+<h2 id="npm安装">npm安装</h2>
+<blockquote>
 <p>NPM是随同NodeJS一起安装的包管理工具，能解决NodeJS代码部署上的很多问题</p>
 <p>出自<a target="_blank" rel="noopener" href="https://www.runoob.com/nodejs/nodejs-npm.html">菜鸟教程</a></p>
 </blockquote>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">sudo apt install npm #安装npm<br></code></pre></td></tr></table></figure>
-
 <p>出现版本过低的情况解决方法见下</p>
-<h2 id="Node-js安装"><a href="#Node-js安装" class="headerlink" title="Node.js安装"></a>Node.js安装</h2><p>默认Linux系统</p>
+<h2 id="node-js安装">Node.js安装</h2>
+<p>默认Linux系统</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">sudo apt install nodejs #安装node.<span class="hljs-property">js</span><br></code></pre></td></tr></table></figure>
-
 <!--more-->
-
 <p>可能出现版本过低的情况(不得低于10.13.0)</p>
 <blockquote>
-<p>npm WARN npm npm does not support Node.js v10.21.0<br>npm WARN npm You should probably upgrade to a newer version of node as we<br>npm WARN npm can’t make any promises that npm will work with this version.<br>npm WARN npm Supported releases of Node.js are the latest release of 4, 6, 7, 8, 9.<br>npm WARN npm You can find the latest version at <a target="_blank" rel="noopener" href="https://nodejs.org/">https://nodejs.org/</a></p>
+<p>npm WARN npm npm does not support Node.js v10.21.0<br>
+npm WARN npm You should probably upgrade to a newer version of node as we<br>
+npm WARN npm can’t make any promises that npm will work with this version.<br>
+npm WARN npm Supported releases of Node.js are the latest release of 4, 6, 7, 8, 9.<br>
+npm WARN npm You can find the latest version at <a target="_blank" rel="noopener" href="https://nodejs.org/">https://nodejs.org/</a></p>
 </blockquote>
 <p>建议在<a target="_blank" rel="noopener" href="https://nodejs.org/">官网</a>下载nodejs包，然后将包放入<code>/opt/apps</code>，然后复制链接到<code>/usr/bin</code></p>
 <p><img src="https://img-blog.csdnimg.cn/ee1de4a34d0b4705a5fb4c33d80c149a.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBARXh0cmFfRmFuZw==,size_9,color_FFFFFF,t_70,g_se,x_16#pic_center" alt="创建链接"></p>
-<p>如图</p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">若要查看你需要的版本，运行 <code>n --版本号</code><a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div> 
+<p>如图`</p>
+ 
       <!-- reward -->
       
     </div>

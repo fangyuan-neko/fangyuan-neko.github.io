@@ -47,7 +47,7 @@
         }
       </style>
     <link rel="alternate" href="/atom.xml" title="方圆喵的小站" type="application/atom+xml">
-</head>
+<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head>
   </html>
 </html>
 
@@ -112,10 +112,9 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <p>下载野生版git会出现一些奇奇怪怪的问题，比如说中文乱码，平时还好，今天在一的巨大的文件夹里大海捞针，真真是找死老娘。。。</p>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>下载野生版git会出现一些奇奇怪怪的问题，比如说中文乱码，平时还好，今天在一的巨大的文件夹里大海捞针，真真是找死老娘。。。</p>
 <p>现在直接一行命令让你在<code>git status</code>里看到人话</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git config --global core.quotepath <span class="hljs-literal">false</span><br></code></pre></td></tr></table></figure>
-
 <p>嗯就这么简单它可以让输出从</p>
 <p><code>       修改：     &quot;\347\241\254\344\273\266/\351\235\242\351\203\250/\346\235\220\346\226\231\351\207\207\344\271\260\346\270\205\345\215\225.md&quot;</code></p>
 <p>变成<code>修改：     /自建源码/ESP8266WebServer-finished_product/ESP8266WebServer-finished_product.ino</code></p>
