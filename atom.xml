@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>方圆喵的小站</title>
+  
+  <subtitle>失落之境</subtitle>
+  <link href="http://fangyuan-neko.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://fangyuan-neko.github.io/"/>
+  <updated>2022-02-06T12:10:13.906Z</updated>
+  <id>http://fangyuan-neko.github.io/</id>
+  
+  <author>
+    <name>fangyuan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>echarts hello world</title>
+    <link href="http://fangyuan-neko.github.io/2022/02/06/echarts-hello-world/"/>
+    <id>http://fangyuan-neko.github.io/2022/02/06/echarts-hello-world/</id>
+    <published>2022-02-06T11:00:06.000Z</published>
+    <updated>2022-02-06T12:10:13.906Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div id=&quot;echarts7570&quot; style=&quot;width: 81%;height: 400px;margin: 0 auto&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+        //</summary>
+        
+      
+    
+    
+    
+    <category term="Hello world" scheme="http://fangyuan-neko.github.io/categories/Hello-world/"/>
+    
+    
+    <category term="Hello world" scheme="http://fangyuan-neko.github.io/tags/Hello-world/"/>
+    
+    <category term="echarts" scheme="http://fangyuan-neko.github.io/tags/echarts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo插件推荐</title>
+    <link href="http://fangyuan-neko.github.io/2022/02/06/hexo%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
+    <id>http://fangyuan-neko.github.io/2022/02/06/hexo%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/</id>
+    <published>2022-02-05T20:30:53.000Z</published>
+    <updated>2022-02-06T12:29:41.222Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;RSS插件&quot;&gt;&lt;a href=&quot;#RSS插件&quot; class=&quot;headerlink&quot; title=&quot;RSS插件&quot;&gt;&lt;/a&gt;RSS插件&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git中文乱码问题</title>
+    <link href="http://fangyuan-neko.github.io/2021/12/03/git%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/"/>
+    <id>http://fangyuan-neko.github.io/2021/12/03/git%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</id>
+    <published>2021-12-03T10:51:49.000Z</published>
+    <updated>2021-12-03T11:08:02.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;下载野生版git会出现一些奇奇怪怪的问题，比如说中文乱码，平时还好，今天在一的巨大的文件夹里大海捞针，真真是找死老娘。。。&lt;/p&gt;
+&lt;p&gt;现在直接一行命令让你在&lt;code&gt;git status&lt;/code&gt;里看到人话&lt;/p&gt;
+&lt;figure</summary>
+        
+      
+    
+    
+    
+    <category term="git" scheme="http://fangyuan-neko.github.io/categories/git/"/>
+    
+    <category term="配置问题" scheme="http://fangyuan-neko.github.io/categories/git/%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/"/>
+    
+    
+    <category term="git" scheme="http://fangyuan-neko.github.io/tags/git/"/>
+    
+    <category term="软件" scheme="http://fangyuan-neko.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>定语与状语（转）</title>
+    <link href="http://fangyuan-neko.github.io/2021/11/29/%E5%AE%9A%E8%AF%AD%E4%B8%8E%E7%8A%B6%E8%AF%AD/"/>
+    <id>http://fangyuan-neko.github.io/2021/11/29/%E5%AE%9A%E8%AF%AD%E4%B8%8E%E7%8A%B6%E8%AF%AD/</id>
+    <published>2021-11-29T15:32:59.000Z</published>
+    <updated>2022-02-06T06:39:09.071Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;定语是广义的形容词&quot;&gt;&lt;a href=&quot;#定语是广义的形容词&quot; class=&quot;headerlink&quot; title=&quot;定语是广义的形容词&quot;&gt;&lt;/a&gt;定语是广义的形容词&lt;/h2&gt;&lt;p&gt;形容词用来修饰名词或代词，其一般可以被翻译为“……的”：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The &lt;em&gt;&lt;strong&gt;cute&lt;/strong&gt;&lt;/em&gt; boy speaks English.&lt;br&gt;（那个可爱的男孩会说英语。）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;形容词&lt;em&gt;cute&lt;/em&gt;修饰名词boy，表达“可爱的男孩”之意。&lt;/p&gt;
+&lt;p&gt;但形容词是词类，我们很难用它来表达更加丰富的语义。&lt;/p&gt;
+&lt;p&gt;比如我们要表达“穿红衣服的男孩”或是“刚刚和我一起玩的男孩”，形容词就无能为力了。&lt;/p&gt;
+&lt;p&gt;因此在一些情景中，我们使用另外一些表达能力更为丰富的结构来充当形容词，比如介词短语和定语从句等：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The boy &lt;em&gt;&lt;strong&gt;in red&lt;/strong&gt;&lt;/em&gt; speaks English.&lt;br&gt;（穿红衣服的男孩会说英语。）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The boy &lt;em&gt;&lt;strong&gt;whom I played with&lt;/strong&gt;&lt;/em&gt; speaks English.&lt;br&gt;（刚刚和我一起玩的男孩会说英语。) &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我们将形容词“&lt;em&gt;cute&lt;/em&gt;”、介词短语“&lt;em&gt;in red&lt;/em&gt;”、定语从句“&lt;em&gt;whom I played with&lt;/em&gt;”这类可以充当形容词使用的结构称为定语，此类结构作定语时均可以被翻译为“……的”。    &lt;/p&gt;
+&lt;p&gt;所以，我们称&lt;strong&gt;定语是广义的形容词&lt;/strong&gt;。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="英语" scheme="http://fangyuan-neko.github.io/categories/%E8%8B%B1%E8%AF%AD/"/>
+    
+    <category term="句子成分" scheme="http://fangyuan-neko.github.io/categories/%E8%8B%B1%E8%AF%AD/%E5%8F%A5%E5%AD%90%E6%88%90%E5%88%86/"/>
+    
+    
+    <category term="文化学习" scheme="http://fangyuan-neko.github.io/tags/%E6%96%87%E5%8C%96%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="英语" scheme="http://fangyuan-neko.github.io/tags/%E8%8B%B1%E8%AF%AD/"/>
+    
+    <category term="时态" scheme="http://fangyuan-neko.github.io/tags/%E6%97%B6%E6%80%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pacman常用命令</title>
+    <link href="http://fangyuan-neko.github.io/2021/11/27/pacman%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://fangyuan-neko.github.io/2021/11/27/pacman%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
+    <published>2021-11-27T06:35:54.000Z</published>
+    <updated>2021-11-28T08:50:38.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;下载类&quot;&gt;&lt;a href=&quot;#下载类&quot; class=&quot;headerlink&quot; title=&quot;下载类&quot;&gt;&lt;/a&gt;下载类&lt;/h2&gt;&lt;h3 id=&quot;系统更新&quot;&gt;&lt;a href=&quot;#系统更新&quot; class=&quot;headerlink&quot; title=&quot;系统更新&quot;&gt;&lt;/a&gt;系统更新&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;pacman -Syu               &lt;span class=&quot;hljs-comment&quot;&gt;#同步源，并更新系统 &lt;/span&gt;&lt;br&gt;pacman -Sy                &lt;span class=&quot;hljs-comment&quot;&gt;#仅同步源 &lt;/span&gt;&lt;br&gt;pacman -Su                &lt;span class=&quot;hljs-comment&quot;&gt;#更新系统&lt;/span&gt;&lt;br&gt;pacman -Su --ignore abc   &lt;span class=&quot;hljs-comment&quot;&gt;#升级时不升级包abc&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;警告：typora近期开始收费，切勿升级！！！&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;个性化下载&quot;&gt;&lt;a href=&quot;#个性化下载&quot; class=&quot;headerlink&quot; title=&quot;个性化下载&quot;&gt;&lt;/a&gt;个性化下载&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;pacman -Sy abc           &lt;span class=&quot;hljs-comment&quot;&gt;#和源同步后安装名为abc的包 &lt;/span&gt;&lt;br&gt;pacman -S abc            &lt;span class=&quot;hljs-comment&quot;&gt;#从本地数据库中得到abc的信息，下载安装abc包 &lt;/span&gt;&lt;br&gt;pacman -Sf abc           &lt;span class=&quot;hljs-comment&quot;&gt;#强制安装包abc &lt;/span&gt;&lt;br&gt;pacman -Sd abc           &lt;span class=&quot;hljs-comment&quot;&gt;#忽略依赖性问题，安装包abc&lt;/span&gt;&lt;br&gt;pacman -U abc            &lt;span class=&quot;hljs-comment&quot;&gt;#安装下载的abc包，或新编译的abc包&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="软件" scheme="http://fangyuan-neko.github.io/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="Arch" scheme="http://fangyuan-neko.github.io/tags/Arch/"/>
+    
+    <category term="包管理" scheme="http://fangyuan-neko.github.io/tags/%E5%8C%85%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>时态总结</title>
+    <link href="http://fangyuan-neko.github.io/2021/11/05/%E6%97%B6%E6%80%81%E6%80%BB%E7%BB%93/"/>
+    <id>http://fangyuan-neko.github.io/2021/11/05/%E6%97%B6%E6%80%81%E6%80%BB%E7%BB%93/</id>
+    <published>2021-11-05T14:35:09.000Z</published>
+    <updated>2022-02-06T12:41:02.634Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;动词时态&quot;&gt;&lt;a href=&quot;#动词时态&quot; class=&quot;headerlink&quot; title=&quot;动词时态&quot;&gt;&lt;/a&gt;动词时态&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="英语" scheme="http://fangyuan-neko.github.io/categories/%E8%8B%B1%E8%AF%AD/"/>
+    
+    <category term="时态" scheme="http://fangyuan-neko.github.io/categories/%E8%8B%B1%E8%AF%AD/%E6%97%B6%E6%80%81/"/>
+    
+    
+    <category term="文化学习" scheme="http://fangyuan-neko.github.io/tags/%E6%96%87%E5%8C%96%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="英语" scheme="http://fangyuan-neko.github.io/tags/%E8%8B%B1%E8%AF%AD/"/>
+    
+    <category term="时态" scheme="http://fangyuan-neko.github.io/tags/%E6%97%B6%E6%80%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>圆锥曲线的另种推导方法</title>
+    <link href="http://fangyuan-neko.github.io/2021/09/12/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF/"/>
+    <id>http://fangyuan-neko.github.io/2021/09/12/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF/</id>
+    <published>2021-09-11T23:45:48.000Z</published>
+    <updated>2021-11-06T15:32:10.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;其实只是简化了一下计算方式，但是比原化减方法简单直观了太多。&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;AB=\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}\\&lt;br&gt;AB^2=(x_1-x_2)^2+(y_1-y_2)^2\\&lt;br&gt;\frac{AB^2}{(x_1-x_2</summary>
+        
+      
+    
+    
+    
+    <category term="数学" scheme="http://fangyuan-neko.github.io/categories/%E6%95%B0%E5%AD%A6/"/>
+    
+    <category term="高中" scheme="http://fangyuan-neko.github.io/categories/%E6%95%B0%E5%AD%A6/%E9%AB%98%E4%B8%AD/"/>
+    
+    
+    <category term="文化学习" scheme="http://fangyuan-neko.github.io/tags/%E6%96%87%E5%8C%96%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="圆锥曲线" scheme="http://fangyuan-neko.github.io/tags/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF/"/>
+    
+    <category term="数学" scheme="http://fangyuan-neko.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用code-server</title>
+    <link href="http://fangyuan-neko.github.io/2021/09/02/%E4%BD%BF%E7%94%A8code-server/"/>
+    <id>http://fangyuan-neko.github.io/2021/09/02/%E4%BD%BF%E7%94%A8code-server/</id>
+    <published>2021-09-02T14:33:46.000Z</published>
+    <updated>2021-11-06T15:33:20.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="软件" scheme="http://fangyuan-neko.github.io/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="软件" scheme="http://fangyuan-neko.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="前端" scheme="http://fangyuan-neko.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>termux配置</title>
+    <link href="http://fangyuan-neko.github.io/2021/09/01/termux%E9%85%8D%E7%BD%AE/"/>
+    <id>http://fangyuan-neko.github.io/2021/09/01/termux%E9%85%8D%E7%BD%AE/</id>
+    <published>2021-09-01T09:11:15.000Z</published>
+    <updated>2021-12-05T06:22:26.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;h2 id=&quot;换源&quot;&gt;&lt;a href=&quot;#换源&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="软件" scheme="http://fangyuan-neko.github.io/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="虚拟机" scheme="http://fangyuan-neko.github.io/categories/%E8%BD%AF%E4%BB%B6/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    
+    <category term="虚拟机" scheme="http://fangyuan-neko.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    <category term="硬件" scheme="http://fangyuan-neko.github.io/tags/%E7%A1%AC%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MtF的悲伤</title>
+    <link href="http://fangyuan-neko.github.io/2021/09/01/MtF%E8%87%AA%E8%BF%B0/"/>
+    <id>http://fangyuan-neko.github.io/2021/09/01/MtF%E8%87%AA%E8%BF%B0/</id>
+    <published>2021-08-31T16:19:21.000Z</published>
+    <updated>2021-11-06T11:46:42.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;生动&quot;&gt;&lt;a href=&quot;#生动&quot; class=&quot;headerlink&quot; title=&quot;生动&quot;&gt;&lt;/a&gt;生动&lt;/h2&gt;&lt;p&gt;正值梅雨时节，一个人在家，身上罩了一件无印良品家的白色长大衣，内里没穿裤子，秋高气爽，心旷神怡。&lt;br&gt;一个人，作业也悠闲，去冲一杯咖啡。走过门席，裙子一样的大衣露出半截光滑的小腿。我看到自己映在镜中的</summary>
+    
+    
+    
+    <category term="谈话" scheme="http://fangyuan-neko.github.io/categories/%E8%B0%88%E8%AF%9D/"/>
+    
+    <category term="谈心" scheme="http://fangyuan-neko.github.io/categories/%E8%B0%88%E8%AF%9D/%E8%B0%88%E5%BF%83/"/>
+    
+    
+    <category term="记录" scheme="http://fangyuan-neko.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="文章" scheme="http://fangyuan-neko.github.io/tags/%E6%96%87%E7%AB%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nodejs升级</title>
+    <link href="http://fangyuan-neko.github.io/2021/05/22/nodejs%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7/"/>
+    <id>http://fangyuan-neko.github.io/2021/05/22/nodejs%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7/</id>
+    <published>2021-05-22T13:25:49.000Z</published>
+    <updated>2022-02-06T12:43:31.440Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;升级&quot;&gt;&lt;a href=&quot;#升级&quot; class=&quot;headerlink&quot; title=&quot;升级&quot;&gt;&lt;/a&gt;升级&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;声明&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;仅支持Linux版本，且MAC版无法保证&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="软件" scheme="http://fangyuan-neko.github.io/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="js" scheme="http://fangyuan-neko.github.io/categories/%E8%BD%AF%E4%BB%B6/js/"/>
+    
+    
+    <category term="linux" scheme="http://fangyuan-neko.github.io/tags/linux/"/>
+    
+    <category term="技术" scheme="http://fangyuan-neko.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="软件" scheme="http://fangyuan-neko.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="nodejs" scheme="http://fangyuan-neko.github.io/tags/nodejs/"/>
+    
+    <category term="js" scheme="http://fangyuan-neko.github.io/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo写作</title>
+    <link href="http://fangyuan-neko.github.io/2021/05/22/Hexo%E5%86%99%E4%BD%9C/"/>
+    <id>http://fangyuan-neko.github.io/2021/05/22/Hexo%E5%86%99%E4%BD%9C/</id>
+    <published>2021-05-22T11:14:33.000Z</published>
+    <updated>2022-02-06T11:33:24.224Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;写作流程&quot;&gt;&lt;a href=&quot;#写作流程&quot; class=&quot;headerlink&quot; title=&quot;写作流程&quot;&gt;&lt;/a&gt;写作流程&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;打草稿&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hexo new draft &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;预览&lt;/p&gt;
+&lt;p&gt;草稿默认不会显示在页面中，您可执行&lt;code&gt;hexo s --draft&lt;/code&gt;，或是在_config.yml中把&lt;code&gt;render_drafts&lt;/code&gt;参数设为&lt;code&gt;true&lt;/code&gt;来预览草稿。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;注&lt;/em&gt;: 如果要发布的话必须再渲染一遍，不然会把草稿一起发出去。&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;&lt;p&gt;发表&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hexo publish [layout] &amp;lt;title&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;推送&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hexo deploy&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;插图&quot;&gt;&lt;a href=&quot;#插图&quot; class=&quot;headerlink&quot; title=&quot;插图&quot;&gt;&lt;/a&gt;插图&lt;/h3&gt;&lt;p&gt;插图是一个非常令人头疼的问题，可以参见如下方法&lt;/p&gt;
+&lt;p&gt;详情可先参见官网&lt;a href=&quot;https://hexo.io/zh-cn/docs/asset-folders&quot;&gt;文档&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在&lt;code&gt;_config.yml&lt;/code&gt;中设置&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;post_asset_folder: true&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;然后给图片取一个简单的名字，如1.jpg，然后用&lt;code&gt;&amp;#123;% asset_img 图片名 注释 %&amp;#125;&lt;/code&gt;的格式在你想插入图片的地方试一试吧&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="信息化" scheme="http://fangyuan-neko.github.io/categories/%E4%BF%A1%E6%81%AF%E5%8C%96/"/>
+    
+    <category term="博客系统" scheme="http://fangyuan-neko.github.io/categories/%E4%BF%A1%E6%81%AF%E5%8C%96/%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+    <category term="技术" scheme="http://fangyuan-neko.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Hexo" scheme="http://fangyuan-neko.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我与一位快递员的谈话</title>
+    <link href="http://fangyuan-neko.github.io/2021/05/21/%E6%88%91%E4%B8%8E%E4%B8%80%E4%BD%8D%E5%BF%AB%E9%80%92%E5%91%98%E7%9A%84%E8%B0%88%E8%AF%9D/"/>
+    <id>http://fangyuan-neko.github.io/2021/05/21/%E6%88%91%E4%B8%8E%E4%B8%80%E4%BD%8D%E5%BF%AB%E9%80%92%E5%91%98%E7%9A%84%E8%B0%88%E8%AF%9D/</id>
+    <published>2021-05-21T15:19:50.000Z</published>
+    <updated>2021-11-06T06:38:18.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天补习下课以后，上电梯，遇到一个快递员。&lt;/p&gt;
+&lt;p&gt;他在打电话“喂喂，您在家吗？我把外卖放门口了，您去取一下就可以了。”&lt;/p&gt;
+&lt;p&gt;对方显然在家，听筒对面传来模模糊糊的应酬声。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="谈话" scheme="http://fangyuan-neko.github.io/categories/%E8%B0%88%E8%AF%9D/"/>
+    
+    <category term="社会经历" scheme="http://fangyuan-neko.github.io/categories/%E8%B0%88%E8%AF%9D/%E7%A4%BE%E4%BC%9A%E7%BB%8F%E5%8E%86/"/>
+    
+    
+    <category term="记录" scheme="http://fangyuan-neko.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="谈话" scheme="http://fangyuan-neko.github.io/tags/%E8%B0%88%E8%AF%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo安装小记</title>
+    <link href="http://fangyuan-neko.github.io/2021/04/18/Hexo%E9%85%8D%E7%BD%AE/"/>
+    <id>http://fangyuan-neko.github.io/2021/04/18/Hexo%E9%85%8D%E7%BD%AE/</id>
+    <published>2021-04-17T16:36:25.000Z</published>
+    <updated>2021-11-06T15:30:46.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Hexo的安装&quot;&gt;&lt;a href=&quot;#Hexo的安装&quot; class=&quot;headerlink&quot; title=&quot;Hexo的安装&quot;&gt;&lt;/a&gt;Hexo的安装&lt;/h2&gt;&lt;p&gt;&lt;code&gt;npm install hexo-cli -g&lt;/code&gt;一键安装&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="信息化" scheme="http://fangyuan-neko.github.io/categories/%E4%BF%A1%E6%81%AF%E5%8C%96/"/>
+    
+    <category term="博客系统" scheme="http://fangyuan-neko.github.io/categories/%E4%BF%A1%E6%81%AF%E5%8C%96/%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+    <category term="技术" scheme="http://fangyuan-neko.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Hexo" scheme="http://fangyuan-neko.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小记</title>
+    <link href="http://fangyuan-neko.github.io/2021/04/11/%E5%B0%8F%E8%AE%B0/"/>
+    <id>http://fangyuan-neko.github.io/2021/04/11/%E5%B0%8F%E8%AE%B0/</id>
+    <published>2021-04-11T07:18:28.000Z</published>
+    <updated>2021-12-12T13:29:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot; title=&quot;序&quot;&gt;&lt;/a&gt;序&lt;/h2&gt;&lt;p&gt;今日与来重庆开证的姐姐琪琪面姬，记述了一些有意思的谈话&lt;/p&gt;
+&lt;h2 id=&quot;开证&quot;&gt;&lt;a href=&quot;#开证&quot; class=&quot;headerlink&quot; title=&quot;开证&quot;&gt;&lt;/a&gt;开证&lt;/h2&gt;&lt;p&gt;Q：找宁洁开证是聊聊就行了么？&lt;/p&gt;
+&lt;p&gt;A：是的，说一下就行了&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="谈话" scheme="http://fangyuan-neko.github.io/categories/%E8%B0%88%E8%AF%9D/"/>
+    
+    
+    <category term="谈话" scheme="http://fangyuan-neko.github.io/tags/%E8%B0%88%E8%AF%9D/"/>
+    
+    <category term="MtF" scheme="http://fangyuan-neko.github.io/tags/MtF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hello world</title>
+    <link href="http://fangyuan-neko.github.io/2021/04/05/hello-world/"/>
+    <id>http://fangyuan-neko.github.io/2021/04/05/hello-world/</id>
+    <published>2021-04-05T08:13:31.000Z</published>
+    <updated>2021-11-06T07:04:40.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Hello-world&quot;&gt;&lt;a href=&quot;#Hello-world&quot; class=&quot;headerlink&quot; title=&quot;Hello world!&quot;&gt;&lt;/a&gt;Hello world!&lt;/h1&gt;&lt;h2 id=&quot;欢迎来到我的小站&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Hello world" scheme="http://fangyuan-neko.github.io/categories/Hello-world/"/>
+    
+    
+    <category term="Hello world" scheme="http://fangyuan-neko.github.io/tags/Hello-world/"/>
+    
+    <category term="博客" scheme="http://fangyuan-neko.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
