@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>第一次加班</title>
+    <link href="/2022/02/14/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%8A%A0%E7%8F%AD/"/>
+    <url>/2022/02/14/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%8A%A0%E7%8F%AD/</url>
+    
+    <content type="html"><![CDATA[<p>真没想到自己加班竟然会是17岁的第一天，这种感受真是五味杂陈，我不敢冒断自己比同龄人成熟，但我肯定比以前的自己老了好多好多（苦笑）。</p><p>今晚是值得纪念的一晚，我就想到那里写到哪里吧。</p><h2 id="7-22-P-M"><a href="#7-22-P-M" class="headerlink" title="7:22 P.M."></a>7:22 P.M.</h2><p>今天下午老板跟我谈了一会心。这是他第二次跟我谈心。我对他人印象不好，老喜欢说脏话，但是我看得出来这是一个“权力者”的肺腑之言，我不愿去相信，但我还是相信了他。</p><p>绕了好大一个圈子，原来还是要回学校好好学习啊……</p><p>男孩子就男孩子趴，一辈子做男孩子就一辈子做男孩子趴，反正过去了也就习惯了，我的人生有很多悲剧，这不过是较大的一个，哪里又不能忍呢？</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>生活</category>
+      
+      <category>工作经历</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>记录</tag>
+      
+      <tag>生活</tag>
+      
+      <tag>社会经历</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>节后上班</title>
+    <link href="/2022/02/09/%E8%8A%82%E5%90%8E%E4%B8%8A%E7%8F%AD/"/>
+    <url>/2022/02/09/%E8%8A%82%E5%90%8E%E4%B8%8A%E7%8F%AD/</url>
+    
+    <content type="html"><![CDATA[<p>春节后第一天，我就来到了公司，我是把自己当作正式员工来要求的（虽然实际上开门的指纹都没录）。</p><p>中午我跟着大家一起去吃饭，稍显不合群，但是我还是努力地融入集体。</p><p>好家伙，开年第一顿工作餐居然是火锅！</p><img src="/2022/02/09/%E8%8A%82%E5%90%8E%E4%B8%8A%E7%8F%AD/1644397042139.jpg" class="" title="同事"><p>看起来好傻逼（捂脸）</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>生活</category>
+      
+      <category>工作经历</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>记录</tag>
+      
+      <tag>生活</tag>
+      
+      <tag>社会经历</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>hexo插件推荐</title>
+    <link href="/2022/02/06/hexo%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
+    <url>/2022/02/06/hexo%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/</url>
+    
+    <content type="html"><![CDATA[<h2 id="RSS插件"><a href="#RSS插件" class="headerlink" title="RSS插件"></a>RSS插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">cnpm install hexo-generator-feed --save<br></code></pre></td></tr></table></figure><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">feed:</span>  <br> <span class="hljs-attr">type:</span> <span class="hljs-string">atom</span>  <br> <span class="hljs-attr">path:</span> <span class="hljs-string">atom.xml</span>  <br> <span class="hljs-attr">limit:</span> <span class="hljs-number">20</span>  <br> <span class="hljs-attr">hub:</span>  <br> <span class="hljs-attr">content:</span>  <br> <span class="hljs-attr">content_limit:</span> <span class="hljs-number">140</span>  <br> <span class="hljs-string">content\_limit\_delim:</span> <span class="hljs-string">&quot; &quot;</span>  <br> <span class="hljs-attr">order_by:</span> <span class="hljs-string">-date</span><br></code></pre></td></tr></table></figure><span id="more"></span><h2 id="搜索插件"><a href="#搜索插件" class="headerlink" title="搜索插件"></a>搜索插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">cnpm install hexo-generator-searchdb --save<br></code></pre></td></tr></table></figure><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-comment"># hexo-generator-searchdb  </span><br><span class="hljs-attr">search:</span>  <br> <span class="hljs-attr">path:</span> <span class="hljs-string">search.xml</span>  <br> <span class="hljs-attr">field:</span> <span class="hljs-string">post</span>  <br> <span class="hljs-attr">format:</span> <span class="hljs-string">html</span><br></code></pre></td></tr></table></figure><h2 id="引用插件"><a href="#引用插件" class="headerlink" title="引用插件"></a>引用插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">cnpm install hexo-reference --save<br></code></pre></td></tr></table></figure><p>注：此插件有bug,需要在<code>hexo clean</code>后删除此插件重装，不然会报</p><blockquote><p>FATAL {<br> err: TypeError: Cannot read properties of undefined (reading ‘content’)<br>     at &#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;_<a href="mailto:&#x68;&#x65;&#120;&#111;&#x2d;&#114;&#x65;&#x66;&#x65;&#114;&#x65;&#110;&#x63;&#x65;&#x40;&#x31;&#46;&#48;&#x2e;&#x34;">&#x68;&#x65;&#120;&#111;&#x2d;&#114;&#x65;&#x66;&#x65;&#114;&#x65;&#110;&#x63;&#x65;&#x40;&#x31;&#46;&#48;&#x2e;&#x34;</a>@hexo-reference&#x2F;src&#x2F;footnotes.js:55:43<br>     at String.replace (&lt;anonymous&gt;)<br>     at renderFootnotes (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;_<a href="mailto:&#x68;&#x65;&#x78;&#x6f;&#45;&#x72;&#101;&#102;&#x65;&#x72;&#x65;&#110;&#x63;&#101;&#x40;&#49;&#46;&#48;&#46;&#x34;">&#x68;&#x65;&#x78;&#x6f;&#45;&#x72;&#101;&#102;&#x65;&#x72;&#x65;&#110;&#x63;&#101;&#x40;&#49;&#46;&#48;&#46;&#x34;</a>@hexo-reference&#x2F;src&#x2F;footnotes.js:53:17)<br>     at Hexo.&lt;anonymous&gt; (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;hexo-reference&#x2F;index.js:6:18)<br>     at Hexo.tryCatcher (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;bluebird&#x2F;js&#x2F;release&#x2F;util.js:16:23)<br>     at Hexo.&lt;anonymous&gt; (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;bluebird&#x2F;js&#x2F;release&#x2F;method.js:15:34)<br>     at &#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;hexo&#x2F;lib&#x2F;extend&#x2F;filter.js:67:52<br>     at tryCatcher (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;bluebird&#x2F;js&#x2F;release&#x2F;util.js:16:23)<br>     at Object.gotValue (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;bluebird&#x2F;js&#x2F;release&#x2F;reduce.js:166:18)<br>     at Object.gotAccum (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;bluebird&#x2F;js&#x2F;release&#x2F;reduce.js:155:25)<br>     at Object.tryCatcher (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;bluebird&#x2F;js&#x2F;release&#x2F;util.js:16:23)<br>     at Promise._settlePromiseFromHandler (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;bluebird&#x2F;js&#x2F;release&#x2F;promise.js:547:31)<br>     at Promise._settlePromise (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;bluebird&#x2F;js&#x2F;release&#x2F;promise.js:604:18)<br>     at Promise._settlePromise0 (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;bluebird&#x2F;js&#x2F;release&#x2F;promise.js:649:10)<br>     at Promise._settlePromises (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;bluebird&#x2F;js&#x2F;release&#x2F;promise.js:729:18)<br>     at _drainQueueStep (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;bluebird&#x2F;js&#x2F;release&#x2F;async.js:93:12)<br>     at _drainQueue (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;bluebird&#x2F;js&#x2F;release&#x2F;async.js:86:9)<br>     at Async._drainQueues (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;bluebird&#x2F;js&#x2F;release&#x2F;async.js:102:5)<br>     at Immediate.Async.drainQueues [as _onImmediate] (&#x2F;home&#x2F;fangyuan&#x2F;文档&#x2F;博客&#x2F;node_modules&#x2F;bluebird&#x2F;js&#x2F;release&#x2F;async.js:15:14)<br>     at processImmediate (node:internal&#x2F;timers:473:21)<br>} Something’s wrong. Maybe you can find the solution here: %s <a href="https://hexo.io/docs/troubleshooting.html">https://hexo.io/docs/troubleshooting.html</a></p></blockquote><h2 id="echarts图表插件"><a href="#echarts图表插件" class="headerlink" title="echarts图表插件"></a>echarts图表插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">cnpm install hexo-tag-echarts --save<br></code></pre></td></tr></table></figure><p>在当前主题下的<code>layout/_partial/head.ejs</code>中加入</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.common.min.js&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span><br></code></pre></td></tr></table></figure><p>参考资料<a href="https://www.jianshu.com/p/8ae0d3b734ed">https://www.jianshu.com/p/8ae0d3b734ed</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>信息化</category>
+      
+      <category>博客系统</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>配置</tag>
+      
+      <tag>博客</tag>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>打工人的一天</title>
+    <link href="/2022/01/24/%E6%89%93%E5%B7%A5%E4%BA%BA%E7%9A%84%E4%B8%80%E5%A4%A9/"/>
+    <url>/2022/01/24/%E6%89%93%E5%B7%A5%E4%BA%BA%E7%9A%84%E4%B8%80%E5%A4%A9/</url>
+    
+    <content type="html"><![CDATA[<h2 id="流水帐"><a href="#流水帐" class="headerlink" title="流水帐"></a>流水帐</h2><p>今天是第一天上班，大家都对我很好奇，知道我未成年以后都感慨现在真是太卷了。</p><p>程序猿都是男的这话真没错，所有写代码的纯纯的男孩子，但是前端的办公室里倒是男女比例挺均衡的，因为做模型设计的几乎都是女孩子（</p><p>中午吃饭，我跟着大家一起去了，我很不习惯不戴帽子，所以迟疑了一下还是戴上了。第一顿工作餐是家常菜，还不错。我第一次接触“真实”的社会，大家都很不客气，先吃最好吃的，吃得慢的就没有了，不像在家里有长辈让着。好在我还是习惯了新的环境，其他女孩子也不得不参与这种竞争，我可以学着。</p><p>大家工作都很认真，（看起来）都很高效，但是有人会经常说一些NSFW的内容，准确来说是一整个下午都在开黄色玩笑。。。虽然我不太喜欢这种活跃气氛的方式，但气氛的确不错。</p><p>产品经理小姐姐很可爱，说话声音很甜美，让我误认为是客服（</p><h2 id="学到的"><a href="#学到的" class="headerlink" title="学到的"></a>学到的</h2><ol><li><p>调CSS的技巧</p><p>先看相对位置，再看绝对位置，图片不见用z-index</p></li><li><p>页面加载有问题时可以试试用defer加载</p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>生活</category>
+      
+      <category>工作经历</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>记录</tag>
+      
+      <tag>生活</tag>
+      
+      <tag>社会经历</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>git中文乱码问题</title>
+    <link href="/2021/12/03/git%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/"/>
+    <url>/2021/12/03/git%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</url>
+    
+    <content type="html"><![CDATA[<p>下载野生版git会出现一些奇奇怪怪的问题，比如说中文乱码，平时还好，今天在一的巨大的文件夹里大海捞针，真真是找死老娘。。。</p><p>现在直接一行命令让你在<code>git status</code>里看到人话</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git config --global core.quotepath <span class="hljs-literal">false</span><br></code></pre></td></tr></table></figure><p>嗯就这么简单它可以让输出从</p><p><code>       修改：     &quot;\347\241\254\344\273\266/\351\235\242\351\203\250/\346\235\220\346\226\231\351\207\207\344\271\260\346\270\205\345\215\225.md&quot;</code></p><p>变成<code>修改：     /自建源码/ESP8266WebServer-finished_product/ESP8266WebServer-finished_product.ino</code></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>git</category>
+      
+      <category>配置问题</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>git</tag>
+      
+      <tag>软件</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>定语与状语（转）</title>
+    <link href="/2021/11/29/%E5%AE%9A%E8%AF%AD%E4%B8%8E%E7%8A%B6%E8%AF%AD/"/>
+    <url>/2021/11/29/%E5%AE%9A%E8%AF%AD%E4%B8%8E%E7%8A%B6%E8%AF%AD/</url>
+    
+    <content type="html"><![CDATA[<h2 id="定语是广义的形容词"><a href="#定语是广义的形容词" class="headerlink" title="定语是广义的形容词"></a>定语是广义的形容词</h2><p>形容词用来修饰名词或代词，其一般可以被翻译为“……的”：</p><blockquote><p>The <em><strong>cute</strong></em> boy speaks English.<br>（那个可爱的男孩会说英语。）</p></blockquote><p>形容词<em>cute</em>修饰名词boy，表达“可爱的男孩”之意。</p><p>但形容词是词类，我们很难用它来表达更加丰富的语义。</p><p>比如我们要表达“穿红衣服的男孩”或是“刚刚和我一起玩的男孩”，形容词就无能为力了。</p><p>因此在一些情景中，我们使用另外一些表达能力更为丰富的结构来充当形容词，比如介词短语和定语从句等：</p><blockquote><p>The boy <em><strong>in red</strong></em> speaks English.<br>（穿红衣服的男孩会说英语。）</p></blockquote><blockquote><p>The boy <em><strong>whom I played with</strong></em> speaks English.<br>（刚刚和我一起玩的男孩会说英语。) </p></blockquote><p>我们将形容词“<em>cute</em>”、介词短语“<em>in red</em>”、定语从句“<em>whom I played with</em>”这类可以充当形容词使用的结构称为定语，此类结构作定语时均可以被翻译为“……的”。    </p><p>所以，我们称<strong>定语是广义的形容词</strong>。</p><span id="more"></span><h2 id="状语是广义的副词"><a href="#状语是广义的副词" class="headerlink" title="状语是广义的副词"></a>状语是广义的副词</h2><p>副词和状语的关系与形容词和定语的关系类似。</p><p>副词用来修饰除名词和代词外的其它结构，比如动词、形容词、副词、短语、句子等，例如：</p><blockquote><p>James answered <em><strong>quickly</strong></em>.<br>（James迅速回答。）</p></blockquote><p>副词<em>quickly</em>修饰动词answer，表达“迅速回答”之意。</p><p>由于词类表达能力的局限性，有时需要其它结构来充当副词以表达更丰富的语义。</p><p>比如我们要表达“James用英语回答”，却发现并没有词意为“用英语”的副词。</p><p>此时就可以用介词短语“<em>in English</em>”充当副词，来修饰动词answer：</p><blockquote><p>James answered <em><strong>in English</strong>.</em><br>（James用英语回答。）</p></blockquote><p>再比如，我们要表达“当我还没有想法的时候，James回答了。”，则可以用状语从句“<em>when I had no idea</em>”充当副词，来修饰句子“James answered”：</p><blockquote><p><em><strong>When I had no idea</strong></em>，James answered.<br>（当我还没有想法的时候，James回答了。）</p></blockquote><p>我们称副词“<em>quickly</em>”、介词短语“<em>in English</em>”、状语从句“w<em>hen I had no idea</em>”这类可以充当副词使用的结构为状语。</p><p>所以，我们称<strong>状语是广义的副词</strong>。</p><p>希望上述内容能够对大家有所帮助。</p><p>来源知乎<a href="https://zhuanlan.zhihu.com/p/27459344">https://zhuanlan.zhihu.com/p/27459344</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>英语</category>
+      
+      <category>句子成分</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>文化学习</tag>
+      
+      <tag>英语</tag>
+      
+      <tag>时态</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>pacman常用命令</title>
+    <link href="/2021/11/27/pacman%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <url>/2021/11/27/pacman%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    
+    <content type="html"><![CDATA[<h2 id="下载类"><a href="#下载类" class="headerlink" title="下载类"></a>下载类</h2><h3 id="系统更新"><a href="#系统更新" class="headerlink" title="系统更新"></a>系统更新</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">pacman -Syu               <span class="hljs-comment">#同步源，并更新系统 </span><br>pacman -Sy                <span class="hljs-comment">#仅同步源 </span><br>pacman -Su                <span class="hljs-comment">#更新系统</span><br>pacman -Su --ignore abc   <span class="hljs-comment">#升级时不升级包abc</span><br></code></pre></td></tr></table></figure><p><strong>警告：typora近期开始收费，切勿升级！！！</strong></p><h3 id="个性化下载"><a href="#个性化下载" class="headerlink" title="个性化下载"></a>个性化下载</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">pacman -Sy abc           <span class="hljs-comment">#和源同步后安装名为abc的包 </span><br>pacman -S abc            <span class="hljs-comment">#从本地数据库中得到abc的信息，下载安装abc包 </span><br>pacman -Sf abc           <span class="hljs-comment">#强制安装包abc </span><br>pacman -Sd abc           <span class="hljs-comment">#忽略依赖性问题，安装包abc</span><br>pacman -U abc            <span class="hljs-comment">#安装下载的abc包，或新编译的abc包</span><br></code></pre></td></tr></table></figure><span id="more"></span><h3 id="查找包"><a href="#查找包" class="headerlink" title="查找包"></a>查找包</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">pacman -Ss abc             <span class="hljs-comment">#搜索有关abc信息的包</span><br>pacman -Si abc             <span class="hljs-comment">#从数据库中搜索包abc的信息</span><br>pacman -Q                  <span class="hljs-comment">#列出已经安装的软件包</span><br>pacman -Q abc              <span class="hljs-comment">#检查 abc 软件包是否已经安装</span><br></code></pre></td></tr></table></figure><h2 id="管理类"><a href="#管理类" class="headerlink" title="管理类"></a>管理类</h2><h3 id="管理包"><a href="#管理包" class="headerlink" title="管理包"></a>管理包</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">pacman -Qi abc             <span class="hljs-comment">#列出已安装的包abc的详细信息</span><br>pacman -Ql abc             <span class="hljs-comment">#列出abc软件包的所有文件</span><br>pacman -Qo /path/to/abc    <span class="hljs-comment">#列出abc文件所属的软件包</span><br>pacman -Sg abc             <span class="hljs-comment">#查询abc这个包组包含的软件包</span><br>pacman -Sc                 <span class="hljs-comment">#清理/var/cache/pacman/pkg目录下的旧包</span><br>pacman -Scc                <span class="hljs-comment">#清除所有下载的包和数据库</span><br></code></pre></td></tr></table></figure><h3 id="删除包"><a href="#删除包" class="headerlink" title="删除包"></a>删除包</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">pacman -R abc               <span class="hljs-comment">#删除abc</span><br>pacman -Rd abc              <span class="hljs-comment">#强制删除被依赖的包</span><br>pacman -Rc abc              <span class="hljs-comment">#删除abc包和依赖abc的包</span><br>pacman -Rsc abc             <span class="hljs-comment">#删除abc包和abc依赖的包</span><br></code></pre></td></tr></table></figure><p><em>出处<a href="http://blog.chinaunix.net/uid-20728322-id-2454942.html">http://blog.chinaunix.net/uid-20728322-id-2454942.html</a></em></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Arch</tag>
+      
+      <tag>包管理</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>时态总结</title>
+    <link href="/2021/11/05/%E6%97%B6%E6%80%81%E6%80%BB%E7%BB%93/"/>
+    <url>/2021/11/05/%E6%97%B6%E6%80%81%E6%80%BB%E7%BB%93/</url>
+    
+    <content type="html"><![CDATA[<h2 id="动词时态"><a href="#动词时态" class="headerlink" title="动词时态"></a>动词时态</h2><span id="more"></span><p>时与态关系非常紧密，这里把它们分开仅作教学用途，实际使用中应看做一个概念。</p><p><a href="https://baike.baidu.com/item/%E5%8A%A8%E8%AF%8D%E6%97%B6%E6%80%81/1413451#:~:text=%E5%8A%A8%E8%AF%8D%E6%97%B6%E6%80%81%20%E4%B8%80%E8%88%AC%E8%BF%87%E5%8E%BB%E6%97%B6%201%20%EF%BC%89%E5%9C%A8%E7%A1%AE%E5%AE%9A%E7%9A%84%E8%BF%87%E5%8E%BB%E6%97%B6%E9%97%B4%E9%87%8C%E6%89%80%E5%8F%91%E7%94%9F%E7%9A%84%E5%8A%A8%E4%BD%9C%E6%88%96%E5%AD%98%E5%9C%A8%E7%9A%84%E7%8A%B6%E6%80%81%E3%80%82%202%20%EF%BC%89%E8%A1%A8%E7%A4%BA%E5%9C%A8%E8%BF%87%E5%8E%BB%E4%B8%80%E6%AE%B5%E6%97%B6%E9%97%B4%E5%86%85%EF%BC%8C%E7%BB%8F%E5%B8%B8%E6%80%A7%E6%88%96%E4%B9%A0%E6%83%AF%E6%80%A7%E7%9A%84%E5%8A%A8%E4%BD%9C%E3%80%82%203%20%EF%BC%89%E5%8F%A5%E5%9E%8B%EF%BC%9A.,seven%20years.%20Scarf%20used%20to%20take%20a%20walk.">docs1(百科定义)</a></p><p><a href="https://www.bilibili.com/video/BV1Sv411y7d8">docs2(视频讲解)</a></p><p>以下每种类型各四种，排列组合就是十六种。</p><h3 id="动词时间"><a href="#动词时间" class="headerlink" title="动词时间"></a>动词时间</h3><ul><li>过去</li><li>现在</li><li>将来</li><li><em>过去将来</em>(较少见，一般出现在从(试)句(卷)中x)</li></ul><h3 id="动词状态"><a href="#动词状态" class="headerlink" title="动词状态"></a>动词状态</h3><ul><li>一般</li><li>完成</li><li>进行</li><li>完成进行</li></ul><h3 id="形式"><a href="#形式" class="headerlink" title="形式"></a>形式</h3><table><thead><tr><th align="center">时间&#x2F;状态</th><th align="center">一般</th><th align="center">完成</th><th align="center">进行</th><th align="center">完成进行</th></tr></thead><tbody><tr><td align="center">过去</td><td align="center"><a href="https://baike.baidu.com/item/%E4%B8%80%E8%88%AC%E8%BF%87%E5%8E%BB%E6%97%B6">一般过去时</a>(did)</td><td align="center"><a href="https://baike.baidu.com/item/%E8%BF%87%E5%8E%BB%E5%AE%8C%E6%88%90%E6%97%B6">过去完成时</a>(had done)</td><td align="center"><a href="https://baike.baidu.com/item/%E8%BF%87%E5%8E%BB%E8%BF%9B%E8%A1%8C%E6%97%B6">过去进行时</a>(was&#x2F;were doing)</td><td align="center"><a href="https://baike.baidu.com/item/%E8%BF%87%E5%8E%BB%E5%AE%8C%E6%88%90%E8%BF%9B%E8%A1%8C%E6%97%B6">过去完成进行时</a>(had been doing)</td></tr><tr><td align="center">现在</td><td align="center">一般现在时(do&#x2F;does)</td><td align="center"><a href="https://baike.baidu.com/item/%E7%8E%B0%E5%9C%A8%E5%AE%8C%E6%88%90%E6%97%B6">现在完成时</a>(have&#x2F;has done)</td><td align="center"><a href="https://baike.baidu.com/item/%E7%8E%B0%E5%9C%A8%E8%BF%9B%E8%A1%8C%E6%97%B6">现在进行时</a>(be doing)</td><td align="center"><a href="https://baike.baidu.com/item/%E7%8E%B0%E5%9C%A8%E5%AE%8C%E6%88%90%E8%BF%9B%E8%A1%8C%E6%97%B6">现在完成进行时</a>(have&#x2F;has been doing)</td></tr><tr><td align="center">将来</td><td align="center"><a href="https://baike.baidu.com/item/%E4%B8%80%E8%88%AC%E5%B0%86%E6%9D%A5%E6%97%B6">一般将来时</a>(will&#x2F;shall do),(be going to do)</td><td align="center"><a href="https://baike.baidu.com/item/%E5%B0%86%E6%9D%A5%E5%AE%8C%E6%88%90%E6%97%B6">将来完成时</a>(will&#x2F;shall have done)</td><td align="center"><a href="https://baike.baidu.com/item/%E5%B0%86%E6%9D%A5%E8%BF%9B%E8%A1%8C%E6%97%B6">将来进行时</a>(will&#x2F;shall be doing)</td><td align="center"><a href="https://baike.baidu.com/item/%E5%B0%86%E6%9D%A5%E5%AE%8C%E6%88%90%E8%BF%9B%E8%A1%8C%E6%97%B6">将来完成进行时</a>(will&#x2F;shall have been doing)</td></tr><tr><td align="center">过去将来</td><td align="center"><a href="https://baike.baidu.com/item/%E4%B8%80%E8%88%AC%E8%BF%87%E5%8E%BB%E5%B0%86%E6%9D%A5%E6%97%B6">一般过去将来时</a>(would&#x2F;should do),(was&#x2F;were going to do)</td><td align="center"><a href="https://baike.baidu.com/item/%E8%BF%87%E5%8E%BB%E5%B0%86%E6%9D%A5%E5%AE%8C%E6%88%90%E6%97%B6">过去将来完成时</a>(would&#x2F;should have done)</td><td align="center"><a href="https://baike.baidu.com/item/%E8%BF%87%E5%8E%BB%E5%B0%86%E6%9D%A5%E8%BF%9B%E8%A1%8C%E6%97%B6">过去将来进行时</a>(would&#x2F;should be doing)</td><td align="center"><a href="https://baike.baidu.com/item/%E8%BF%87%E5%8E%BB%E5%B0%86%E6%9D%A5%E5%AE%8C%E6%88%90%E8%BF%9B%E8%A1%8C%E6%97%B6">过去将来完成进行时</a>(would&#x2F;should have been doing)</td></tr></tbody></table><p><strong><code>would</code>的区分</strong>: </p><ul><li>will过去式的变位构成时态</li><li>在虚拟语气中，表意思与事实相反</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>英语</category>
+      
+      <category>时态</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>文化学习</tag>
+      
+      <tag>英语</tag>
+      
+      <tag>时态</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>圆锥曲线的另种推导方法</title>
+    <link href="/2021/09/12/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF/"/>
+    <url>/2021/09/12/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF/</url>
+    
+    <content type="html"><![CDATA[<p>其实只是简化了一下计算方式，但是比原化减方法简单直观了太多。</p><p>$$<br>\begin{array}{ll}<br>AB &amp;&#x3D; \sqrt{(x_1-x_2)^2+(y_1-y_2)^2}\\<br>AB^2 &amp;&#x3D; (x_1-x_2)^2+(y_1-y_2)^2\\<br>\frac{AB^2}{(x_1-x_2)^2} &amp;&#x3D; \frac{(x_1-x_2)^2+(y_1-y_2)^2}{(x_1-x_2)^2}\\<br>\frac{|AB|}{|x_1-x_2|} &amp;&#x3D; \sqrt{\frac{(x_1-x_2)^2}{(x_1-x_2)^2}+\frac{(y_1-y_2)^2}{(x_1-x_2)^2}}\\<br>|AB| &amp;&#x3D; \sqrt{1+k^2}|x_1-x_2|<br>\end{array}<br>$$</p><p>啊啊啊mathjax渲染以后跟我写的不一样！！！<br>查了一下是要把换行用的<code>\\</code>改成<code>\\\\</code>（二次转义</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>数学</category>
+      
+      <category>高中</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>文化学习</tag>
+      
+      <tag>圆锥曲线</tag>
+      
+      <tag>数学</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>使用code-server</title>
+    <link href="/2021/09/02/%E4%BD%BF%E7%94%A8code-server/"/>
+    <url>/2021/09/02/%E4%BD%BF%E7%94%A8code-server/</url>
+    
+    <content type="html"><![CDATA[<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p><a href="https://coder.com/docs/code-server/v3.11.1/termux#installation">docs</a><br><code>apt install build-essential python git nodejs yarn</code><br><code>yarn global add code-server</code><br><strong>注意，要特别有耐心，我下了3040s</strong><br>如果是外部访问的话要用<code>code-server --bind-addr &lt;你的服务器IP地址&gt;</code><br>如果是在termux上运行的话无法一键调试，因为没有权限。</p><h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>手机后台可能会杀进程导致网页前端无反应，注意要切回termux守护进程。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软件</tag>
+      
+      <tag>前端</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>termux配置</title>
+    <link href="/2021/09/01/termux%E9%85%8D%E7%BD%AE/"/>
+    <url>/2021/09/01/termux%E9%85%8D%E7%BD%AE/</url>
+    
+    <content type="html"><![CDATA[<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h2 id="换源"><a href="#换源" class="headerlink" title="换源"></a>换源</h2><p><code>termux-change-repo</code>一键换源<br>也可以手动修改<code>apt edit-sources</code>。<br><em>如果找不到编辑器的话，可以用<code>EDITOR=nano</code>用系统自带的nano。</em><br><code>deb https://mirrors.ustc.edu.cn/termux/apt/termux-main stable main</code></p><h2 id="使用软链接"><a href="#使用软链接" class="headerlink" title="使用软链接"></a>使用软链接</h2><p><code>ln -s /storage/emulated/0/documents /data/data/com.termux/files/home</code></p><h2 id="安装GNU-x2F-Linux系统"><a href="#安装GNU-x2F-Linux系统" class="headerlink" title="安装GNU&#x2F;Linux系统"></a>安装GNU&#x2F;Linux系统</h2><p>安装</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">pkg install proot-distro<br></code></pre></td></tr></table></figure><p>然后你就可以通过</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">proot-distro install &lt;<span class="hljs-built_in">alias</span>&gt; <span class="hljs-comment">#安装任意操作系统啦</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件</category>
+      
+      <category>虚拟机</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>虚拟机</tag>
+      
+      <tag>硬件</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>MtF的悲伤</title>
+    <link href="/2021/09/01/MtF%E8%87%AA%E8%BF%B0/"/>
+    <url>/2021/09/01/MtF%E8%87%AA%E8%BF%B0/</url>
+    
+    <content type="html"><![CDATA[<h2 id="生动"><a href="#生动" class="headerlink" title="生动"></a>生动</h2><p>正值梅雨时节，一个人在家，身上罩了一件无印良品家的白色长大衣，内里没穿裤子，秋高气爽，心旷神怡。<br>一个人，作业也悠闲，去冲一杯咖啡。走过门席，裙子一样的大衣露出半截光滑的小腿。我看到自己映在镜中的<span id="more"></span>身体，时间仿佛凝固了，————中性服饰适当的遮掩把身体勾勒成了完美的模样，不高不矮的镜子刚好忽略了我那张熬风景的脸，一种清爽的，淡淡的少女感充斥着家。只停留了一瞬，我便向前走去，虽然心有不舍，但也没有留恋，因为我知道，那份喜悦和无忧无虑的好心情已经留在心里了。<br>喝喝了大半杯咖啡，略有一些尿意，于是漫步到厕所。衣服比较难脱，便大大咧咧地掀起裙子一样的下摆，露出了半截大腿，我全然忘记了自己实际是一个男孩子，经过精心处理的大腿在自然光下白得有些耀眼，却这时既不蠢蠢欲动又不心痒难耐，只是单纯欣赏自己的美。我坐下来，把无聊的器官埋到大腿下面去，眼看向窗外，轻嗅着秋雨尘土的味道。我不再感受到下身的的异样，心也平静下来，我忘却了俗世的一切糟粕，忘却了成绩；忘却了股市；忘却了政治；忘却了圈子，忘却了仇恨，忘却了过去的一切，我仿佛本就是一个普通的女孩子，平淡地思考自己的现在和未来。</p><h2 id="腐烂"><a href="#腐烂" class="headerlink" title="腐烂"></a>腐烂</h2><p>我无意识地呢喃了一句：“好想变可爱”。明明是少女的语气，却发出来的却是作做的油腻的大叔音，我忘记了忍受，忘记了如何如何应对，居然被自己吓到了，<br>清泪顺着双颊流了下来，我无比委屈，却不敢再发出一丝声音，我起身走进卧室，中间无意瞥到盥洗台镜子中的自己————一具美观的、健康的身体上稼接着一颗令人不可思议的脑袋，像是一张劣制的恶搞图片。讽刺的是，被恶搞的是我，而恶搞我的是上帝。一切像是一场噩梦而我无法醒来。我崩溃了，倒在床上。<br>我想过自残，但是伤害哪里好呢？我实在不想破坏自己精心打理的身体，也不便糟塌那张可能被拎出去见人的脸，下面那个给自己带来无尽痛苦和麻烦的器官也许是个好主意，可上面有太多的血管，即便我不疼，残存的理智也阻止了我进一步行动。我痛苦地蜷成胎儿的形状，发狠地抱紧双腿，脑中闪过令人作呕的画面————不堪回首过去，痛苦迷茫的的现在，生死未卜的未来。每一帧画面——不论发生的、未发生的，都真实得像我正在亲历一般。孤立、欺骗、惩罚、误解和敌视把我的心切成一片一片的。疼痛，不可思议的疼痛。</p><h2 id="干枯"><a href="#干枯" class="headerlink" title="干枯"></a>干枯</h2><p>不知过了多久，我全身都脱力了，才使劲地坐起来，收拾起心中的一片狼藉。毕竟，再伤心，生活也还是要继续的；人，无论多么高贵，总还是要吃饭的；学生，无论遭遇什么，总还是要学习的。我把琐事丢到一边，把碎成一片一片的心拾回来。刚才的狂恼固然铭心，然而在这垃圾堆般无意义的世界中努力地生活才是最刻骨的……痛……</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>生活</category>
+      
+      <category>谈心</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>记录</tag>
+      
+      <tag>文章</tag>
+      
+      <tag>MtF</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>nodejs升级</title>
+    <link href="/2021/05/22/nodejs%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7/"/>
+    <url>/2021/05/22/nodejs%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7/</url>
+    
+    <content type="html"><![CDATA[<h2 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h2><p><strong>声明</strong></p><p>仅支持Linux版本，且MAC版无法保证</p><span id="more"></span><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>需要安装一个软件n，<a href="https://github.com/tj/n">文档</a>。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">npm i -g n<br></code></pre></td></tr></table></figure><p>如果无法安装，请使用</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">npm i -g n --force<br></code></pre></td></tr></table></figure><h3 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h3><h4 id="指定版本号"><a href="#指定版本号" class="headerlink" title="指定版本号"></a>指定版本号</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">n 版本号 如 n <span class="hljs-number">10.0</span><span class="hljs-number">.0</span><br></code></pre></td></tr></table></figure><h4 id="最新版本"><a href="#最新版本" class="headerlink" title="最新版本"></a>最新版本</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">n latest<br></code></pre></td></tr></table></figure><h4 id="最新稳定版"><a href="#最新稳定版" class="headerlink" title="最新稳定版"></a>最新稳定版</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">n lts<br></code></pre></td></tr></table></figure><h4 id="续"><a href="#续" class="headerlink" title="续"></a>续</h4><p>如果n提醒你如下：</p><blockquote><p>Note: the node command changed location and the old location may be remembered in your current shell.<br>         old : &#x2F;usr&#x2F;bin&#x2F;node<br>         new : &#x2F;usr&#x2F;local&#x2F;bin&#x2F;node<br>To reset the command location hash either start a new shell, or execute PATH&#x3D;”$PATH”</p></blockquote><p>那么按提示输入<code>PATH=$PATH</code>即可</p><p>再次检查<code>node -v</code>，可发现已成功升级。</p><h2 id="npm安装"><a href="#npm安装" class="headerlink" title="npm安装"></a>npm安装</h2><blockquote><p>NPM是随同NodeJS一起安装的包管理工具，能解决NodeJS代码部署上的很多问题</p><p>出自<a href="https://www.runoob.com/nodejs/nodejs-npm.html">菜鸟教程</a></p></blockquote><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">sudo apt install npm #安装npm<br></code></pre></td></tr></table></figure><p>出现版本过低的情况解决方法见下</p><h2 id="Node-js安装"><a href="#Node-js安装" class="headerlink" title="Node.js安装"></a>Node.js安装</h2><p>默认Linux系统</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">sudo apt install nodejs #安装node.<span class="hljs-property">js</span><br></code></pre></td></tr></table></figure><!--more--><p>可能出现版本过低的情况(不得低于10.13.0)</p><blockquote><p>npm WARN npm npm does not support Node.js v10.21.0<br>npm WARN npm You should probably upgrade to a newer version of node as we<br>npm WARN npm can’t make any promises that npm will work with this version.<br>npm WARN npm Supported releases of Node.js are the latest release of 4, 6, 7, 8, 9.<br>npm WARN npm You can find the latest version at <a href="https://nodejs.org/">https://nodejs.org/</a></p></blockquote><p>建议在<a href="https://nodejs.org/">官网</a>下载nodejs包，然后将包放入<code>/opt/apps</code>，然后复制链接到<code>/usr/bin</code></p><p><img src="https://img-blog.csdnimg.cn/ee1de4a34d0b4705a5fb4c33d80c149a.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBARXh0cmFfRmFuZw==,size_9,color_FFFFFF,t_70,g_se,x_16#pic_center" alt="创建链接"></p><p>如图&#96;</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件</category>
+      
+      <category>js</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>linux</tag>
+      
+      <tag>技术</tag>
+      
+      <tag>软件</tag>
+      
+      <tag>nodejs</tag>
+      
+      <tag>js</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>hexo写作</title>
+    <link href="/2021/05/22/Hexo%E5%86%99%E4%BD%9C/"/>
+    <url>/2021/05/22/Hexo%E5%86%99%E4%BD%9C/</url>
+    
+    <content type="html"><![CDATA[<h3 id="写作流程"><a href="#写作流程" class="headerlink" title="写作流程"></a>写作流程</h3><ol><li><p>打草稿</p><p><code>hexo new draft &lt;name&gt;</code></p></li><li><p>预览</p><p>草稿默认不会显示在页面中，您可执行<code>hexo s --draft</code>，或是在_config.yml中把<code>render_drafts</code>参数设为<code>true</code>来预览草稿。</p></li></ol><p><em>注</em>: 如果要发布的话必须再渲染一遍，不然会把草稿一起发出去。</p><ol start="3"><li><p>发表</p><p><code>hexo publish [layout] &lt;title&gt;</code></p></li><li><p>推送</p><p><code>hexo deploy</code></p></li></ol><h3 id="插图"><a href="#插图" class="headerlink" title="插图"></a>插图</h3><p>插图是一个非常令人头疼的问题，可以参见如下方法</p><p>详情可先参见官网<a href="https://hexo.io/zh-cn/docs/asset-folders">文档</a></p><p>在<code>_config.yml</code>中设置</p><p><code>post_asset_folder: true</code></p><p>然后给图片取一个简单的名字，如1.jpg，然后用<code>&#123;% asset_img 图片名 注释 %&#125;</code>的格式在你想插入图片的地方试一试吧</p><span id="more"></span><h3 id="省略"><a href="#省略" class="headerlink" title="省略"></a>省略</h3><p>在作者用的Ayer主题中，文章中插入<code>&lt;!--more--&gt;</code>就可以省略。</p><h3 id="原理剖析"><a href="#原理剖析" class="headerlink" title="原理剖析"></a>原理剖析</h3><p>hexo会生成如下配置</p><figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs 1c">.<br>├── _config.yml<br>├── package.json<br>├── scaffolds<br>├── source<br><span class="hljs-string">|├── tags</span><br><span class="hljs-string">|├── categories</span><br><span class="hljs-string">|   ├── friends</span><br><span class="hljs-string">|   └── _posts</span><br>└── themes<br></code></pre></td></tr></table></figure><p>其中，source用于存放原文章，你可以将写好的文章存在_posts中，软件会将此文件夹渲染成.html页面</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>信息化</category>
+      
+      <category>博客系统</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>技术</tag>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>我与一位快递员的谈话</title>
+    <link href="/2021/05/21/%E6%88%91%E4%B8%8E%E4%B8%80%E4%BD%8D%E5%BF%AB%E9%80%92%E5%91%98%E7%9A%84%E8%B0%88%E8%AF%9D/"/>
+    <url>/2021/05/21/%E6%88%91%E4%B8%8E%E4%B8%80%E4%BD%8D%E5%BF%AB%E9%80%92%E5%91%98%E7%9A%84%E8%B0%88%E8%AF%9D/</url>
+    
+    <content type="html"><![CDATA[<p>今天补习下课以后，上电梯，遇到一个快递员。</p><p>他在打电话“喂喂，您在家吗？我把外卖放门口了，您去取一下就可以了。”</p><p>对方显然在家，听筒对面传来模模糊糊的应酬声。</p><span id="more"></span><p>我们未曾谋面，能交流起来全凭偶然，我也在叹息，他也在叹息。</p><p>我导数是听得腾云驾雾，自然愁眉苦脸，他也特别能感同身受，手机发了一连串即将超时的提醒。</p><p>真巧，各有各的烦心事儿，他自言自语似的抱怨起来。</p><p><em>“你说这气不气，明明就在家，但是敲了五分钟都不答应！”</em></p><p><em>“这确实可恨。”</em></p><p>我回答的有些漫不经心，虽然确实很同情他，我却傲娇的没有表现出来，话里一股子书生气，好像要显得高他一等似的。仔细看了看他的侧脸，竟是个老人，也许只是年过半百，身子骨还强健，脸上却是常年经历风沙的沧桑。</p><p><em>“气死人哦，这一单跑慢了，后面全都来不及，这里软件要计时，差一秒这一单就一分钱都没有。还有差评，一个差评好几单的钱就没了……”</em></p><p>他把手机屏幕朝我晃了晃，是美团的后台，各类数据和指标像绞刑架上的绳索，慢慢地收紧。我惊异于他毫无防备的动作，仿佛我们是多年的老朋友一样，什么烦心事儿都可以抱怨，实际上我们只认识了不到一天。</p><p><em>“现在的人根本就不重视外卖员，明明就在家，非不开这门！也不知道怎么想的！”</em></p><p>生活的重压和现实的残酷已经让他不知道该说什么好了。</p><p><em>“是啊是啊，有些人是很可恨，只不过也有的人可能是实在忙不过来所以忘了。”</em>我想也没想便这样回他。</p><p>话一出口我就后悔了，这事儿确实是消费者的不对，为什么要为他们辩护呢？毕竟我也是消费者，下意识就想与“大多数人”一起诬蔑和埋没他们的苦难。</p><p>他显然没有得到满意——或者说是正确的回答，他灰暗的眼神中闪过了一丝对我的不满。</p><p>电梯门开了。</p><p>我本想道歉，喉咙里却滚出了一句<em>“你快去吧，别迟了”</em>。</p><p>真讨厌这样的自己啊，明明是他在为这个社会创造价值，我一个一个脱产学生却像领导一样命令他。</p><p>我是什么东西？我有什么资格这么对他说话？</p><p>看着他远去的背影，我想起了杨绛先生的话，<em><strong>这是一个幸运者对不幸者的愧怍</strong></em>。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>生活</category>
+      
+      <category>社会经历</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>记录</tag>
+      
+      <tag>谈话</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>hexo安装小记</title>
+    <link href="/2021/04/18/Hexo%E9%85%8D%E7%BD%AE/"/>
+    <url>/2021/04/18/Hexo%E9%85%8D%E7%BD%AE/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Hexo的安装"><a href="#Hexo的安装" class="headerlink" title="Hexo的安装"></a>Hexo的安装</h2><p><code>npm install hexo-cli -g</code>一键安装</p><span id="more"></span><p><strong>注：</strong></p><p><u>安装速度过慢的话，可以考虑更换软件源(<del>不过笔者也是半吊子，不知道有没有危险和缺点</del>)</u></p><p>可以尝试更换<a href="http://npm.taobao.org/mirrors">淘宝</a>的源<code>npm config set registry https://registry.npm.taobao.org</code></p><p>这样npm就会从国内某位好心人提供的高速宽带下载需要的包</p><p>如果需要恢复成原来的官方地址只需要执行如下命令:</p><p><code>npm config set registry https://registry.npmjs.org</code></p><p>检查</p><p><code>npm config get registry</code></p><h2 id="Hexo博客系统配置"><a href="#Hexo博客系统配置" class="headerlink" title="Hexo博客系统配置"></a>Hexo博客系统配置</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo init<br>sudo npm install<br></code></pre></td></tr></table></figure><h4 id="小尝试"><a href="#小尝试" class="headerlink" title="小尝试"></a>小尝试</h4><p><strong>在当前文件夹</strong>输入命令<code>hexo g</code>+ <code>hexo s</code>&#x2F;&#x2F;分别是“generate”（生成）和“server”（服务器）的意思</p><p>然后根据提示在浏览器中访问<a href="localhost:4000">localhost:4000</a>就可以看到成果啦！</p><h3 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h3><p>这里笔者用的是ayer主题<br>详见<a href="https://shen-yu.gitee.io/2019/ayer/">官方教程</a></p><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>安装git插件</p><p><code>npm install hexo-deployer-git --save</code></p><p>然后在博客根目录的<code>_config.yml</code>加上</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">deploy:</span><br>  <span class="hljs-attr">type:</span> <span class="hljs-string">git</span><br>  <span class="hljs-attr">repo:</span> <span class="hljs-string">git@github.com:&lt;yourname&gt;/&lt;yourname&gt;.github.io.git</span><br>  <span class="hljs-attr">branch:</span> <span class="hljs-string">main</span><br>  <span class="hljs-attr">massage:</span> <span class="hljs-string">reflash</span><br></code></pre></td></tr></table></figure><p>注意GitHub21年3月后禁用了账号密码连接的方式，因此只能用Git连接。<br>如有其它问题，<a href="https://hexo.io/zh-cn/docs/one-command-deployment">请参见官方发布指南</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>信息化</category>
+      
+      <category>博客系统</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>技术</tag>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>小记</title>
+    <link href="/2021/04/11/%E5%B0%8F%E8%AE%B0/"/>
+    <url>/2021/04/11/%E5%B0%8F%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><p>今日与来重庆开证的姐姐琪琪面姬，记述了一些有意思的谈话</p><h2 id="开证"><a href="#开证" class="headerlink" title="开证"></a>开证</h2><p>Q：找宁洁开证是聊聊就行了么？</p><p>A：是的，说一下就行了</p><span id="more"></span><h2 id="吃药"><a href="#吃药" class="headerlink" title="吃药"></a>吃药</h2><p>Q：有什么指导么？</p><p>A：最近温州药娘群出事了，我不好乱说…….你…….</p><p>A：【文件】</p><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>Q：读大学跟工作关系大吗？</p><p>A：没有啥关系</p><h3 id="大学生活"><a href="#大学生活" class="headerlink" title="大学生活"></a>大学生活</h3><p>Q：采访一下，你生活费多少啊？</p><p>A：</p><p>Q：你室友知道么？</p><p>A：我……我室友不知道</p><p>Q：相处一年了吧都？</p><p>A：对</p><p>Q：……（emmmm……）</p><h3 id="成就"><a href="#成就" class="headerlink" title="成就"></a>成就</h3><p>Q：有考研的打算吗？</p><p>A：看情况吧</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>因为人太丑就没敢合照QAQ……</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>生活</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>MtF</tag>
+      
+      <tag>谈话</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>hello world</title>
+    <link href="/2021/04/05/hello-world/"/>
+    <url>/2021/04/05/hello-world/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!"></a>Hello world!</h1><h2 id="欢迎来到我的小站"><a href="#欢迎来到我的小站" class="headerlink" title="欢迎来到我的小站"></a>欢迎来到我的小站</h2><p>我是小站的主人，方圆喵！wranroow～</p><p>我刚刚创建这里！</p><p>欢迎来玩！</p><h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2><p>各种尝试（比如贴个图？）</p><img src="/2021/04/05/hello-world/img1.png" class="" title="debain娘化图"><p>嗯嗯</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Hello world</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hello world</tag>
+      
+      <tag>博客</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
