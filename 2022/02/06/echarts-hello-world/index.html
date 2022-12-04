@@ -17,23 +17,23 @@
   <meta name="author" content="Extra Fang">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Hexo的安装npm install hexo-cli -g一键安装">
+    <meta name="description" content="&#x2F;&#x2F; 基于准备好的dom，初始化echarts实例         var myChart &#x3D; echarts.init(document.getElementById(&#39;echarts1083&#39;));          &#x2F;&#x2F; 指定图表的配置项和数据         var option &#x3D; {     tooltip : {         trigger: &#39;a">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo安装小记">
-<meta property="og:url" content="http://blog.fangyuan.cn/2021/04/18/Hexo%E9%85%8D%E7%BD%AE/index.html">
+<meta property="og:title" content="echarts hello world">
+<meta property="og:url" content="http://blog.fangyuan.cn/2022/02/06/echarts-hello-world/index.html">
 <meta property="og:site_name" content="方圆喵的小窝">
-<meta property="og:description" content="Hexo的安装npm install hexo-cli -g一键安装">
+<meta property="og:description" content="&#x2F;&#x2F; 基于准备好的dom，初始化echarts实例         var myChart &#x3D; echarts.init(document.getElementById(&#39;echarts1083&#39;));          &#x2F;&#x2F; 指定图表的配置项和数据         var option &#x3D; {     tooltip : {         trigger: &#39;a">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-04-17T16:36:25.000Z">
-<meta property="article:modified_time" content="2021-11-06T15:30:46.000Z">
+<meta property="article:published_time" content="2022-02-06T11:00:06.000Z">
+<meta property="article:modified_time" content="2022-02-06T12:10:13.000Z">
 <meta property="article:author" content="Extra Fang">
-<meta property="article:tag" content="技术">
-<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="Hello world">
+<meta property="article:tag" content="echarts">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>hexo安装小记 - 方圆喵的小窝</title>
+  <title>echarts hello world - 方圆喵的小窝</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -210,7 +210,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="hexo安装小记"></span>
+            <span id="subtitle" data-typed-text="echarts hello world"></span>
           
         </div>
 
@@ -221,8 +221,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2021-04-18 00:36" pubdate>
-          2021年4月18日 凌晨
+        <time datetime="2022-02-06 19:00" pubdate>
+          2022年2月6日 晚上
         </time>
       </span>
     
@@ -233,7 +233,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          651 字
+          819 字
         
       </span>
     
@@ -244,7 +244,7 @@
         
         
         
-          6 分钟
+          7 分钟
         
       </span>
     
@@ -282,34 +282,82 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">hexo安装小记</h1>
+            <h1 style="display: none">echarts hello world</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="Hexo的安装"><a href="#Hexo的安装" class="headerlink" title="Hexo的安装"></a>Hexo的安装</h2><p><code>npm install hexo-cli -g</code>一键安装</p>
-<span id="more"></span>
+                <div id="echarts1083" style="width: 81%;height: 400px;margin: 0 auto"></div>
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('echarts1083'));
 
-<p><strong>注：</strong></p>
-<p><u>安装速度过慢的话，可以考虑更换软件源(<del>不过笔者也是半吊子，不知道有没有危险和缺点</del>)</u></p>
-<p>可以尝试更换<a target="_blank" rel="noopener" href="http://npm.taobao.org/mirrors">淘宝</a>的源<code>npm config set registry https://registry.npm.taobao.org</code></p>
-<p>这样npm就会从国内某位好心人提供的高速宽带下载需要的包</p>
-<p>如果需要恢复成原来的官方地址只需要执行如下命令:</p>
-<p><code>npm config set registry https://registry.npmjs.org</code></p>
-<p>检查</p>
-<p><code>npm config get registry</code></p>
-<h2 id="Hexo博客系统配置"><a href="#Hexo博客系统配置" class="headerlink" title="Hexo博客系统配置"></a>Hexo博客系统配置</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo init<br>sudo npm install<br></code></pre></td></tr></table></figure>
+        // 指定图表的配置项和数据
+        var option = {
+    tooltip : {
+        trigger: 'axis',
+        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+        }
+    },
+    legend: {
+        data:['利润', '支出', '收入']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    xAxis : [
+        {
+            type : 'value'
+        }
+    ],
+    yAxis : [
+        {
+            type : 'category',
+            axisTick : {show: false},
+            data : ['周一','周二','周三','周四','周五','周六','周日']
+        }
+    ],
+    series : [
+        {
+            name:'利润',
+            type:'bar',
+            itemStyle : {
+                normal: {
+                    label: {show: true, position: 'inside'}
+                }
+            },
+            data:[200, 170, 240, 244, 200, 220, 210]
+        },
+        {
+            name:'收入',
+            type:'bar',
+            stack: '总量',
+            itemStyle: {
+                normal: {
+                    label : {show: true}
+                }
+            },
+            data:[320, 302, 341, 374, 390, 450, 420]
+        },
+        {
+            name:'支出',
+            type:'bar',
+            stack: '总量',
+            itemStyle: {normal: {
+                label : {show: true, position: 'left'}
+            }},
+            data:[-120, -132, -101, -134, -190, -230, -210]
+        }
+    ]
+};
 
-<h4 id="小尝试"><a href="#小尝试" class="headerlink" title="小尝试"></a>小尝试</h4><p><strong>在当前文件夹</strong>输入命令<code>hexo g</code>+ <code>hexo s</code>&#x2F;&#x2F;分别是“generate”（生成）和“server”（服务器）的意思</p>
-<p>然后根据提示在浏览器中访问<a href="localhost:4000">localhost:4000</a>就可以看到成果啦！</p>
-<h3 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h3><p>这里笔者用的是ayer主题<br>详见<a target="_blank" rel="noopener" href="https://shen-yu.gitee.io/2019/ayer/">官方教程</a></p>
-<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>安装git插件</p>
-<p><code>npm install hexo-deployer-git --save</code></p>
-<p>然后在博客根目录的<code>_config.yml</code>加上</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">deploy:</span><br>  <span class="hljs-attr">type:</span> <span class="hljs-string">git</span><br>  <span class="hljs-attr">repo:</span> <span class="hljs-string">git@github.com:&lt;yourname&gt;/&lt;yourname&gt;.github.io.git</span><br>  <span class="hljs-attr">branch:</span> <span class="hljs-string">main</span><br>  <span class="hljs-attr">massage:</span> <span class="hljs-string">reflash</span><br></code></pre></td></tr></table></figure>
-
-<p>注意GitHub21年3月后禁用了账号密码连接的方式，因此只能用Git连接。<br>如有其它问题，<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/one-command-deployment">请参见官方发布指南</a></p>
-
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+</script>
                 
               </div>
             
@@ -327,15 +375,8 @@
     
       <span class="category-chain">
         
-  <a href="/categories/%E4%BF%A1%E6%81%AF%E5%8C%96/" class="category-chain-item">信息化</a>
+  <a href="/categories/Hello-world/" class="category-chain-item">Hello world</a>
   
-  
-    <span>></span>
-    
-  <a href="/categories/%E4%BF%A1%E6%81%AF%E5%8C%96/%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F/" class="category-chain-item">博客系统</a>
-  
-  
-
   
 
       </span>
@@ -349,9 +390,9 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E6%8A%80%E6%9C%AF/">#技术</a>
+        <a href="/tags/Hello-world/">#Hello world</a>
       
-        <a href="/tags/Hexo/">#Hexo</a>
+        <a href="/tags/echarts/">#echarts</a>
       
     </div>
   
@@ -359,54 +400,6 @@
 
 
               
-  
-
-  <div class="license-box my-3">
-    <div class="license-title">
-      <div>hexo安装小记</div>
-      <div>http://blog.fangyuan.cn/2021/04/18/Hexo配置/</div>
-    </div>
-    <div class="license-meta">
-      
-        <div class="license-meta-item">
-          <div>作者</div>
-          <div>Extra Fang</div>
-        </div>
-      
-      
-        <div class="license-meta-item license-meta-date">
-          <div>发布于</div>
-          <div>2021年4月18日</div>
-        </div>
-      
-      
-      
-        <div class="license-meta-item">
-          <div>许可协议</div>
-          <div>
-            
-              
-              
-                <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">
-                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
-                    <i class="iconfont icon-by"></i>
-                  </span>
-                </a>
-              
-                <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">
-                  <span class="hint--top hint--rounded" aria-label="SA - 相同方式共享">
-                    <i class="iconfont icon-sa"></i>
-                  </span>
-                </a>
-              
-            
-          </div>
-        </div>
-      
-    </div>
-    <div class="license-icon iconfont"></div>
-  </div>
-
 
 
               
@@ -414,9 +407,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/05/21/%E6%88%91%E4%B8%8E%E4%B8%80%E4%BD%8D%E5%BF%AB%E9%80%92%E5%91%98%E7%9A%84%E8%B0%88%E8%AF%9D/" title="我与一位快递员的谈话">
+                      <a href="/2022/02/09/%E8%8A%82%E5%90%8E%E4%B8%8A%E7%8F%AD/" title="节后上班">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">我与一位快递员的谈话</span>
+                        <span class="hidden-mobile">节后上班</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -424,8 +417,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2021/04/11/%E5%B0%8F%E8%AE%B0/" title="小记">
-                        <span class="hidden-mobile">小记</span>
+                      <a href="/2022/02/06/hexo%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/" title="hexo插件推荐">
+                        <span class="hidden-mobile">hexo插件推荐</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
