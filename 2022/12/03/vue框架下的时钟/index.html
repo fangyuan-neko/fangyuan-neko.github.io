@@ -19,19 +19,22 @@
   
     <meta name="description" content="12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152function getMonth() &amp;#123;	let d &#x3D; new Date();	switch (d.getDay()) &amp;#123;		case 1:		return &quot;星期一&amp;quot">
 <meta property="og:type" content="article">
-<meta property="og:title" content="vue框架下的响应式时钟">
-<meta property="og:url" content="http://blog.fangyuan.cn/2022/12/03/vue%E6%A1%86%E6%9E%B6%E4%B8%8B%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E6%97%B6%E9%92%9F/index.html">
+<meta property="og:title" content="vue框架下的时钟">
+<meta property="og:url" content="http://blog.fangyan.ltd/2022/12/03/vue%E6%A1%86%E6%9E%B6%E4%B8%8B%E7%9A%84%E6%97%B6%E9%92%9F/index.html">
 <meta property="og:site_name" content="方圆喵的小窝">
 <meta property="og:description" content="12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152function getMonth() &amp;#123;	let d &#x3D; new Date();	switch (d.getDay()) &amp;#123;		case 1:		return &quot;星期一&amp;quot">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-12-03T14:00:29.000Z">
-<meta property="article:modified_time" content="2022-12-03T14:17:57.571Z">
+<meta property="article:modified_time" content="2022-12-31T09:45:05.374Z">
 <meta property="article:author" content="Extra Fang">
+<meta property="article:tag" content="js">
+<meta property="article:tag" content="前端">
+<meta property="article:tag" content="vue">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>vue框架下的响应式时钟 - 方圆喵的小窝</title>
+  <title>vue框架下的时钟 - 方圆喵的小窝</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -69,7 +72,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"blog.fangyuan.cn","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"blog.fangyan.ltd","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -208,7 +211,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="vue框架下的响应式时钟"></span>
+            <span id="subtitle" data-typed-text="vue框架下的时钟"></span>
           
         </div>
 
@@ -280,7 +283,7 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">vue框架下的响应式时钟</h1>
+            <h1 style="display: none">vue框架下的时钟</h1>
             
             
               <div class="markdown-body">
@@ -294,6 +297,45 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E8%BD%AF%E4%BB%B6/" class="category-chain-item">软件</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/%E8%BD%AF%E4%BB%B6/js/" class="category-chain-item">js</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/js/">#js</a>
+      
+        <a href="/tags/%E5%89%8D%E7%AB%AF/">#前端</a>
+      
+        <a href="/tags/vue/">#vue</a>
+      
+    </div>
   
 </div>
 
@@ -303,8 +345,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>vue框架下的响应式时钟</div>
-      <div>http://blog.fangyuan.cn/2022/12/03/vue框架下的响应式时钟/</div>
+      <div>vue框架下的时钟</div>
+      <div>http://blog.fangyan.ltd/2022/12/03/vue框架下的时钟/</div>
     </div>
     <div class="license-meta">
       
