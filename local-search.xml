@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>文件传输小技巧</title>
+    <link href="/2023/03/11/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    <url>/2023/03/11/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%B0%8F%E6%8A%80%E5%B7%A7/</url>
+    
+    <content type="html"><![CDATA[<p>找到要传输的文件</p><img src="/2023/03/11/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%B0%8F%E6%8A%80%E5%B7%A7/20230311_102703.png" class="" title="要传输的文件"><p><img src="/../../../_resources/20230311_102703.png" alt="要传输的文件"></p><p>在地址栏输入powershell</p><img src="/2023/03/11/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%B0%8F%E6%8A%80%E5%B7%A7/20230311_103924.png" class="" title="地址栏输入powershell"><p><img src="/../../../_resources/20230311_103924.png" alt="地址栏输入powershell"></p><img src="/2023/03/11/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%B0%8F%E6%8A%80%E5%B7%A7/20230311_104209.png" class="" title="powershell"><p><img src="/../../../_resources/20230311_104209.png" alt="powershell"></p><p>输入<code>ipconfig</code>找到并记住ipv6地址（不是fe80，通常是2409开头）</p><p>输入<code>python3 -m http.server 8080</code></p><p>在浏览器输入ipconfig提示的ipv6相应地址（<code>http://[&lt;your ipv6 address&gt;]:8080</code>）</p><blockquote><p>PS:ipv6地址前后要加中括号哟</p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>技术</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>neovim配置教程</title>
     <link href="/2023/03/11/neovim%E9%85%8D%E7%BD%AE/"/>
     <url>/2023/03/11/neovim%E9%85%8D%E7%BD%AE/</url>
