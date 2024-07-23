@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,a5 as o}from"./chunks/framework.Djspl_t8.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"doc"},"headers":[],"relativePath":"打工人的一天.md","filePath":"打工人的一天.md"}'),_={name:"打工人的一天.md"},r=o("",8),p=[r];function i(n,s,c,l,d,h){return t(),a("div",null,p)}const u=e(_,[["render",i]]);export{m as __pageData,u as default};

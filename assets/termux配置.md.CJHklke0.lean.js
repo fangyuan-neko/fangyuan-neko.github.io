@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as e,a5 as t}from"./chunks/framework.Djspl_t8.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"doc"},"headers":[],"relativePath":"termux配置.md","filePath":"termux配置.md"}'),i={name:"termux配置.md"},n=t("",10),o=[n];function l(h,d,r,p,c,k){return e(),s("div",null,o)}const g=a(i,[["render",l]]);export{m as __pageData,g as default};
