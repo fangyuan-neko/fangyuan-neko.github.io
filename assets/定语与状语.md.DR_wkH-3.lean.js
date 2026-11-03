@@ -1,1 +1,0 @@
-import{_ as e,c as o,o as t,a5 as a}from"./chunks/framework.Djspl_t8.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"doc"},"headers":[],"relativePath":"定语与状语.md","filePath":"定语与状语.md"}'),s={name:"定语与状语.md"},n=a("",26),p=[n];function r(m,l,c,h,i,d){return t(),o("div",null,p)}const g=e(s,[["render",r]]);export{u as __pageData,g as default};

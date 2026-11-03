@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="blog site of 方圆/fangyuan"><link rel="icon" type="image/webp" href="/avatar.webp"><title>fangyuan's blog - fangyuanmeow</title><script defer src="/flexsearch.compact.min.js"></script><link media="screen, print, monochrome" href="/material-icons.css" rel="stylesheet"><link rel="stylesheet" href="/_astro/compiler.Bvbmnuz1.css"><link rel="stylesheet" href="/_astro/BlogLayout.p86CVE8D.css"></head><body><header><nav><a href="/" class=""><img src="/avatar.webp" alt="home page" class="rounded-full w-8 md:w-12"></a><!-- <a href="/blog" class="max-md:text-size-sm">Blog</a> --><a href="/archives" class="max-md:text-size-sm">Archives</a><a href="/categories" class="max-md:text-size-sm">Categories</a><a href="/tags" class="max-md:text-size-sm">Tags</a><a href="/friends" class="max-md:text-size-sm">Friends</a><button id="theme-toggle" type="button" aria-label="Toggle theme"><i class="material-icons sun-icon" style="display: none;">light_mode</i><i class="material-icons moon-icon">dark_mode</i></button><button id="search-toggle" type="button" aria-label="Search"><i class="material-icons">search</i></button><a href="/rss.xml" aria-label="RSS Feed" title="Subscribe to RSS"><i class="material-icons">rss_feed</i></a></nav></header><main><article class="prose prose-lg max-w-none"><header><h1>小记</h1><div class="post-meta"><time datetime="2021-04-11T07:00:00.000Z">2021年4月11日</time><div><span class="inline-flex items-center gap-0 rounded bg-surface-2 px-2 py-0.5 text-xs text-ink"><i class="material-icons text-[0.8em]">fingerprint</i>21:40:11:15:tx:rc</span></div><div class="mt-2 flex flex-wrap gap-2"><a class="inline-flex items-center gap-0 rounded bg-surface-2 px-2 py-0.5 text-xs text-ink no-underline transition-colors duration-200 hover:text-accent" href="/tags/%E8%B0%88%E8%AF%9D/"><i class="material-icons text-[0.8em]">local_offer</i>谈话</a><a class="inline-flex items-center gap-0 rounded bg-surface-2 px-2 py-0.5 text-xs text-ink no-underline transition-colors duration-200 hover:text-accent" href="/tags/MtF/"><i class="material-icons text-[0.8em]">local_offer</i>MtF</a></div><div class="mt-2 flex flex-wrap"><span>/</span><a class="rounded bg-surface-2 px-2 py-0.5 text-xs text-ink no-underline transition-colors duration-200 hover:text-accent" href="/categories/%E6%96%87%E4%BB%B6/">文件</a><span>/</span><a class="rounded bg-surface-2 px-2 py-0.5 text-xs text-ink no-underline transition-colors duration-200 hover:text-accent" href="/categories/%E8%AE%B0%E5%BD%95/">记录</a></div></div></header><h2 id="序">序</h2>
+<p>今日与来重庆开证的姐姐琪琪面姬，记述了一些有意思的谈话</p>
+<h2 id="开证">开证</h2>
+<p>Q：找宁洁开证是聊聊就行了么？</p>
+<p>A：是的，说一下就行了</p>
+<!--more-->
+<h2 id="吃药">吃药</h2>
+<p>Q：有什么指导么？</p>
+<p>A：最近温州药娘群出事了，我不好乱说…你…</p>
+<p>A：【文件】</p>
+<h2 id="学习">学习</h2>
+<p>Q：读大学跟工作关系大吗？</p>
+<p>A：没有啥关系</p>
+<h3 id="大学生活">大学生活</h3>
+<p>Q：采访一下，你生活费多少啊？</p>
+<p>A：</p>
+<p>Q：你室友知道么？</p>
+<p>A：我…我室友不知道</p>
+<p>Q：相处一年了吧都？</p>
+<p>A：对</p>
+<p>Q：…（emmmm…）</p>
+<h3 id="成就">成就</h3>
+<p>Q：有考研的打算吗？</p>
+<p>A：看情况吧</p>
+<h2 id="总结">总结</h2>
+<p>因为人太丑就没敢合照QAQ…</p></article></main><div id="search-overlay" style="display: none;"><input type="text" id="search-input" placeholder="Search articles..." aria-label="Search"><div id="search-results"></div></div><script type="module">var e=document.getElementById(`theme-toggle`),t=document.querySelector(`.sun-icon`),n=document.querySelector(`.moon-icon`);if(e&&t&&n){let r=window.matchMedia(`(prefers-color-scheme: dark)`).matches,i=localStorage.getItem(`theme`)||(r?`dark`:`light`);function a(){document.documentElement.setAttribute(`data-theme`,i),i===`dark`?(t.style.display=`block`,n.style.display=`none`):(t.style.display=`none`,n.style.display=`block`),localStorage.setItem(`theme`,i)}e.addEventListener(`click`,()=>{i=i===`light`?`dark`:`light`,a()}),a()}var r=document.getElementById(`search-toggle`),i=document.getElementById(`search-overlay`),a=document.getElementById(`search-input`),o=document.getElementById(`search-results`);r&&i&&a&&o&&(r.addEventListener(`click`,()=>{i.style.display=`flex`,a.focus()}),i.addEventListener(`click`,e=>{e.target===i&&(i.style.display=`none`)}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&(i.style.display=`none`)}),a.addEventListener(`input`,async()=>{let e=a.value.trim();if(!e)o.innerHTML=``;else try{let t=await(await fetch(`/search-index.json`)).json();o.innerHTML={search:function(e){let n=[],r=e.toLowerCase();for(let e=0;e<t.length;e++){let i=t[e],a=i.title.toLowerCase().includes(r),o=i.body.toLowerCase().includes(r);(a||o)&&n.push({score:a?2:1,id:e})}return n.sort((e,t)=>t.score-e.score)}}.search(e).map(e=>{let n=t[e.id];return`<div class="search-result"><a href="${n.url}">${n.title}</a></div>`}).join(``)||`<div class="no-results">No results found</div>`}catch(e){console.error(`Search error:`,e),o.innerHTML=`<div class="no-results">Error loading search results: ${e instanceof Error?e.message:`Unknown error`}</div>`}}));</script></body></html>

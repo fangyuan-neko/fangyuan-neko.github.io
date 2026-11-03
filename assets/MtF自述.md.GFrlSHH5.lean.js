@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as t,a5 as o}from"./chunks/framework.Djspl_t8.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"doc"},"headers":[],"relativePath":"MtF自述.md","filePath":"MtF自述.md"}'),r={name:"MtF自述.md"},_=o("",6),n=[_];function s(c,i,d,l,h,p){return t(),e("div",null,n)}const f=a(r,[["render",s]]);export{u as __pageData,f as default};

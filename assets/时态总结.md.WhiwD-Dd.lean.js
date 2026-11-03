@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,a5 as r}from"./chunks/framework.Djspl_t8.js";const A=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"doc"},"headers":[],"relativePath":"时态总结.md","filePath":"时态总结.md"}'),E={name:"时态总结.md"},l=r("",13),i=[l];function n(d,o,B,s,h,c){return a(),t("div",null,i)}const g=e(E,[["render",n]]);export{A as __pageData,g as default};
