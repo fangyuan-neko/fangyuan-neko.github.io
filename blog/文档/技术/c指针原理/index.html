@@ -1,0 +1,119 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="blog site of 方圆/fangyuan"><link rel="icon" type="image/webp" href="/avatar.webp"><title>fangyuan's blog - fangyuanmeow</title><script defer src="/flexsearch.compact.min.js"></script><link media="screen, print, monochrome" href="/material-icons.css" rel="stylesheet"><link rel="stylesheet" href="/_astro/compiler.pVzNSKVv.css"><link rel="stylesheet" href="/_astro/BlogLayout.p86CVE8D.css"></head><body><header><nav><a href="/" class=""><img src="/avatar.webp" alt="home page" class="rounded-full w-8 md:w-12"></a><!-- <a href="/blog" class="max-md:text-size-sm">Blog</a> --><a href="/archives" class="max-md:text-size-sm">Archives</a><a href="/categories" class="max-md:text-size-sm">Categories</a><a href="/tags" class="max-md:text-size-sm">Tags</a><a href="/friends" class="max-md:text-size-sm">Friends</a><button id="theme-toggle" type="button" aria-label="Toggle theme"><i class="material-icons sun-icon" style="display: none;">light_mode</i><i class="material-icons moon-icon">dark_mode</i></button><button id="search-toggle" type="button" aria-label="Search"><i class="material-icons">search</i></button><a href="/rss.xml" aria-label="RSS Feed" title="Subscribe to RSS"><i class="material-icons">rss_feed</i></a></nav></header><main><article class="prose prose-lg max-w-none"><header><h1>C指针原理</h1><div class="post-meta"><time datetime="2023-03-30T03:00:00.000Z">2023年3月30日</time><div><span class="inline-flex items-center gap-0 rounded bg-surface-2 px-2 py-0.5 text-xs text-ink"><i class="material-icons text-[0.8em]">fingerprint</i>23:32:30:11:dc:cs</span></div><div class="mt-2 flex flex-wrap gap-2"><a class="inline-flex items-center gap-0 rounded bg-surface-2 px-2 py-0.5 text-xs text-ink no-underline transition-colors duration-200 hover:text-accent" href="/tags/%E6%8A%80%E6%9C%AF/"><i class="material-icons text-[0.8em]">local_offer</i>技术</a><a class="inline-flex items-center gap-0 rounded bg-surface-2 px-2 py-0.5 text-xs text-ink no-underline transition-colors duration-200 hover:text-accent" href="/tags/C/"><i class="material-icons text-[0.8em]">local_offer</i>C</a></div><div class="mt-2 flex flex-wrap"><span>/</span><a class="rounded bg-surface-2 px-2 py-0.5 text-xs text-ink no-underline transition-colors duration-200 hover:text-accent" href="/categories/%E6%96%87%E6%A1%A3/">文档</a><span>/</span><a class="rounded bg-surface-2 px-2 py-0.5 text-xs text-ink no-underline transition-colors duration-200 hover:text-accent" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></div></div></header><h2 id="概述">概述</h2>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="c"><code><span class="line"><span style="color:#F97583">int</span><span style="color:#E1E4E8"> a </span><span style="color:#F97583">=</span><span style="color:#79B8FF"> 5</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#F97583">int</span><span style="color:#F97583"> *</span><span style="color:#E1E4E8"> p </span><span style="color:#F97583">=</span><span style="color:#F97583"> &#x26;</span><span style="color:#E1E4E8">a;</span></span></code></pre>
+<p>我们应该将<code>int *</code>（C#中指针是<code>int* p</code>，数组是<code>int[] arr</code>）而不是<code>int</code>看作一个整体，*代表指针，而<code>int *</code>就代表int类型的指针。</p>
+<p>这段代码的意思是<code>int *</code>类型的指针p被赋给了a的地址，<code>int *</code>称为类型名。</p>
+<h2 id="不同场景下的含义">不同场景下<code>*</code>的含义</h2>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="c"><code><span class="line"><span style="color:#F97583">int</span><span style="color:#F97583"> *</span><span style="color:#E1E4E8"> p;</span></span>
+<span class="line"><span style="color:#F97583">int</span><span style="color:#E1E4E8"> x </span><span style="color:#F97583">=</span><span style="color:#79B8FF"> 10</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#E1E4E8">p </span><span style="color:#F97583">=</span><span style="color:#F97583"> &#x26;</span><span style="color:#E1E4E8">x;</span></span>
+<span class="line"><span style="color:#B392F0">printf</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">"</span><span style="color:#79B8FF">%d</span><span style="color:#9ECBFF">"</span><span style="color:#E1E4E8">, </span><span style="color:#F97583">*</span><span style="color:#FFAB70">p</span><span style="color:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#B392F0">printf</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">"</span><span style="color:#79B8FF">%d</span><span style="color:#9ECBFF">"</span><span style="color:#E1E4E8">, p);</span></span></code></pre>
+<p>除了在声明<code>int *</code>的时候*代表了指针以外，其他时候*都代表解引用运算符。
+因此，《C Primer Plus》推荐大家在声明时用<code>int * p</code>（有空格）；在使用时用<code>*p</code>（没有空格）</p>
+<p><em>注意</em>：<code>p = &#x26;x</code>与<code>*p = x</code>有同样的效果，但是使用<code>*p = x</code>会将值赋给空地址，因此推荐使用<code>p = &#x26;x</code>。</p>
+<h3 id="指针本身是什么">指针本身是什么？</h3>
+<p><code>p</code>本身代表一个地址，ta的值就是指向<code>&#x26;x</code>的地址，在声明且未赋值的的时候为(nil)。</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="c"><code><span class="line"><span style="color:#F97583">#include</span><span style="color:#9ECBFF"> &#x3C;stdio.h></span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583">int</span><span style="color:#B392F0"> main</span><span style="color:#E1E4E8">(</span><span style="color:#F97583">void</span><span style="color:#E1E4E8">)</span></span>
+<span class="line"><span style="color:#E1E4E8">{</span></span>
+<span class="line"><span style="color:#F97583">    int</span><span style="color:#F97583"> *</span><span style="color:#E1E4E8"> p;</span></span>
+<span class="line"><span style="color:#F97583">    int</span><span style="color:#E1E4E8"> a </span><span style="color:#F97583">=</span><span style="color:#79B8FF"> 10</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#B392F0">    printf</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">"</span><span style="color:#79B8FF">%p\n</span><span style="color:#9ECBFF">"</span><span style="color:#E1E4E8">, p);</span></span>
+<span class="line"><span style="color:#B392F0">    printf</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">"</span><span style="color:#79B8FF">%d\n</span><span style="color:#9ECBFF">"</span><span style="color:#E1E4E8">, a);</span></span>
+<span class="line"><span style="color:#E1E4E8">    p </span><span style="color:#F97583">=</span><span style="color:#F97583"> &#x26;</span><span style="color:#E1E4E8">a;</span></span>
+<span class="line"><span style="color:#B392F0">    printf</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">"</span><span style="color:#79B8FF">%p\n</span><span style="color:#9ECBFF">"</span><span style="color:#E1E4E8">, p);</span></span>
+<span class="line"><span style="color:#B392F0">    printf</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">"</span><span style="color:#79B8FF">%d</span><span style="color:#9ECBFF">"</span><span style="color:#E1E4E8">, </span><span style="color:#F97583">*</span><span style="color:#E1E4E8">p);</span></span>
+<span class="line"><span style="color:#E1E4E8">}</span></span>
+<span class="line"><span style="color:#6A737D">// (nil)</span></span>
+<span class="line"><span style="color:#6A737D">// 10</span></span>
+<span class="line"><span style="color:#6A737D">// 0x7ffe842853ac</span></span>
+<span class="line"><span style="color:#6A737D">// 10⏎                    </span></span></code></pre>
+<h3 id="函数指针如何解释">函数指针如何解释？</h3>
+<p>此指针是指向函数机器码所在位置</p>
+<h4 id="语言声明的读法">语言声明的读法</h4>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="c"><code><span class="line"><span style="color:#F97583">int</span><span style="color:#E1E4E8"> (</span><span style="color:#F97583">*</span><span style="color:#E1E4E8">func_p)(</span><span style="color:#F97583">double</span><span style="color:#E1E4E8">);</span></span></code></pre>
+<ol>
+<li>先看标识符</li>
+</ol>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="c"><code><span class="line"><span style="color:#F97583">int</span><span style="color:#E1E4E8"> (</span><span style="color:#F97583">*</span><span style="color:#E1E4E8">func_p)(</span><span style="color:#F97583">double</span><span style="color:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#F97583">      ~~~~~~</span></span></code></pre>
+<ul>
+<li>remark: func_p is</li>
+</ul>
+<ol start="2">
+<li>因为有括号，先看括号内运算符(*)</li>
+</ol>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="c"><code><span class="line"><span style="color:#F97583">int</span><span style="color:#E1E4E8"> (</span><span style="color:#F97583">*</span><span style="color:#E1E4E8">func_p)(</span><span style="color:#F97583">double</span><span style="color:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#F97583">     ^~~~~~~</span></span></code></pre>
+<ul>
+<li>remark: func_p is pointer to</li>
+</ul>
+<ol start="3">
+<li>再看表示函数的括号，参数是double</li>
+</ol>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="c"><code><span class="line"><span style="color:#F97583">int</span><span style="color:#E1E4E8"> (</span><span style="color:#F97583">*</span><span style="color:#E1E4E8">func_p)(</span><span style="color:#F97583">double</span><span style="color:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#F97583">             ~~~~~~~~</span></span></code></pre>
+<ul>
+<li>remark: func_p is pointer to double returing</li>
+</ul>
+<ol start="4">
+<li>最后看类型修饰符int</li>
+</ol>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="c"><code><span class="line"><span style="color:#F97583">int</span><span style="color:#E1E4E8"> (</span><span style="color:#F97583">*</span><span style="color:#E1E4E8">func_p)(</span><span style="color:#F97583">double</span><span style="color:#E1E4E8">);</span></span>
+<span class="line"><span style="color:#F97583">~~~</span></span></code></pre>
+<ul>
+<li>remark: func_p is pointer to double returing int</li>
+</ul>
+<blockquote>
+<p>func_p是指向返回int的函数（参数是double）的指针。</p>
+</blockquote>
+<p>table:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="center">C</th><th align="center">En</th><th align="center">zh</th></tr></thead><tbody><tr><td align="center">int hoge;</td><td align="center">hoge is array of int</td><td align="center">hoge是int</td></tr><tr><td align="center">int hoge[10];</td><td align="center">hoge is array(with 10 element)of int</td><td align="center">hoge是int的数组（元素个数为10）</td></tr><tr><td align="center">int hoge[10][3];</td><td align="center">hoge is array(with 10 element) of array(with 3 element) of int</td><td align="center">hoge是指向int的指针的数组（元素个数为10）</td></tr></tbody></table>
+<h2 id="科学地认识类型">科学地认识类型</h2>
+<p>之所以要写一下这里，主要是因为很多人对于类型有这样那样的误解。</p>
+<h3 id="基础类型">基础类型</h3>
+<p>包括int、float、double、long</p>
+<h3 id="派生类型">派生类型</h3>
+<ul>
+<li>指针</li>
+<li>数组（以元素的个数为属性）</li>
+<li>函数（以参数信息为属性）</li>
+</ul>
+<h3 id="不完全类型">不完全类型</h3>
+<p>含义：除函数类型外的长度不确定的类型</p>
+<ul>
+<li>void</li>
+</ul>
+<h3 id="其它">其它</h3>
+<p>可以确定长度的类型被称为对象类型
+无法知晓函数的长度，因此没有函数的数组
+从函数类型不能派生出指针类型以外的类型
+从数组类型不能派生出函数类型
+除函数类型、不完全类型，其它类型均有长度</p></article></main><div id="search-overlay" style="display: none;"><input type="text" id="search-input" placeholder="Search articles..." aria-label="Search"><div id="search-results"></div></div><script type="module">var e=document.getElementById(`theme-toggle`),t=document.querySelector(`.sun-icon`),n=document.querySelector(`.moon-icon`);if(e&&t&&n){let r=window.matchMedia(`(prefers-color-scheme: dark)`).matches,i=localStorage.getItem(`theme`)||(r?`dark`:`light`);function a(){document.documentElement.setAttribute(`data-theme`,i),i===`dark`?(t.style.display=`block`,n.style.display=`none`):(t.style.display=`none`,n.style.display=`block`),localStorage.setItem(`theme`,i)}e.addEventListener(`click`,()=>{i=i===`light`?`dark`:`light`,a()}),a()}var r=document.getElementById(`search-toggle`),i=document.getElementById(`search-overlay`),a=document.getElementById(`search-input`),o=document.getElementById(`search-results`);r&&i&&a&&o&&(r.addEventListener(`click`,()=>{i.style.display=`flex`,a.focus()}),i.addEventListener(`click`,e=>{e.target===i&&(i.style.display=`none`)}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&(i.style.display=`none`)}),a.addEventListener(`input`,async()=>{let e=a.value.trim();if(!e)o.innerHTML=``;else try{let t=await(await fetch(`/search-index.json`)).json();o.innerHTML={search:function(e){let n=[],r=e.toLowerCase();for(let e=0;e<t.length;e++){let i=t[e],a=i.title.toLowerCase().includes(r),o=i.body.toLowerCase().includes(r);(a||o)&&n.push({score:a?2:1,id:e})}return n.sort((e,t)=>t.score-e.score)}}.search(e).map(e=>{let n=t[e.id];return`<div class="search-result"><a href="${n.url}">${n.title}</a></div>`}).join(``)||`<div class="no-results">No results found</div>`}catch(e){console.error(`Search error:`,e),o.innerHTML=`<div class="no-results">Error loading search results: ${e instanceof Error?e.message:`Unknown error`}</div>`}}));</script></body></html>
